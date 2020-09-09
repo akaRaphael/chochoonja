@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>은섬 조춘자 - 한국의 채색화</title>
+    <style>
+      @font-face {
+        font-family: "Jeju Myeongjo", serif;
+        src: url("./JejuMyeongjo.ttf");
+      }
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background-image: url(./005.jpg);
+        background-size: inherit;
+      }
+
+      .title {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border-bottom: 3px solid black;
+      }
+      .title__container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      .title__container__text {
+        position: relative;
+        top: -3vh;
+        letter-spacing: 1.5vh;
+        font-size: 10vh;
+        font-family: "Jeju Myeongjo", serif;
+        color: black;
+      }
+      .chinese {
+        font-size: 4vh;
+        line-height: 20vh;
+        font-family: "Noto Serif KR", serif;
+      }
+      .language {
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        font-size: 2vh;
+      }
+      .language__korean,
+      .language__english {
+        font-family: "Noto Serif KR", serif;
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="title">
+      <div class="title__container">
+        <p class="title__container__text chinese">恩暹&nbsp;</p>
+        <p class="title__container__text korean">은섬</p>
+      </div>
+      <div class="title__container">
+        <p class="title__container__text chinese">趙春子&nbsp;</p>
+        <p class="title__container__text korean">조춘자</p>
+      </div>
+    </header>
+    <main>
+      <div class="language">
+        <a class="language__korean" href="#">Korean&nbsp;|</a>
+        <a class="language__english" href="#">&nbsp;English</a>
+      </div>
+    </main>
+  </body>
+</html>
