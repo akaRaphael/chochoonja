@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Jeju Myeongjo", serif;
+  src: url("./JejuMyeongjo.ttf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(../010.jpg);
+  background-repeat: repeat-x;
+}
+
+.title {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 3px solid whitesmoke;
+}
+.title__container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.title__container__text {
+  position: relative;
+  top: -10vh;
+  letter-spacing: 1.5vh;
+  font-size: 10vh;
+  font-family: "Jeju Myeongjo", serif;
+  font-weight: 500;
+  color: whitesmoke;
+}
+.chinese {
+  font-size: 5vh;
+  line-height: 20vh;
+  font-family: "Noto Serif KR", serif;
+  text-align: right;
+}
+.language {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  font-size: 2.5vh;
+}
+.language__korean,
+.language__english {
+  font-family: "Noto Serif KR", serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 299px) {
+  .title__container__text {
+    font-size: 30px;
+  }
+  .chinese {
+    font-size: 20px;
+  }
+  .language {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) {
+  .title__container__text {
+    font-size: 40px;
+  }
+  .chinese {
+    font-size: 25px;
+  }
+  .language {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 570px) {
+  .title__container__text {
+    font-size: 50px;
+  }
+  .chinese {
+    font-size: 30px;
+  }
+  .language {
+    font-size: 20px;
+  }
+}
