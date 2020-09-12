@@ -32,6 +32,7 @@ body {
   font-family: "Jeju Myeongjo", serif;
   font-weight: 500;
   color: whitesmoke;
+  text-align: left;
 }
 .chinese {
   font-size: 5vh;
