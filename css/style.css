@@ -1,2 +1,11 @@
 @import "reset.css";
+
+/*Components*/
+
+/*Screens*/
 @import "screen/index.css";
+@import "screen/main.css";
+
+body {
+  font-family: "Jeju Myeongjo", serif;
+}

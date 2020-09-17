@@ -1,0 +1,6 @@
+.main-header__title {
+  border: 1px solid tomato;
+  width: 100%;
+  font-size: 5vw;
+  text-align: center;
+}
