@@ -1,6 +1,18 @@
+@keyframes titleFadeAction {
+  from {
+    opacity: 0;
+    boder: none;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .index-body {
   background-image: url(../010.jpg);
   background-repeat: repeat-x;
+  animation: titleFadeAction 2s ease-in-out forwards;
 }
 
 .title {
@@ -11,22 +23,24 @@
   align-items: center;
   border-bottom: 3px solid whitesmoke;
 }
+
 .title__container {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
+
 .title__container__text {
   position: relative;
   top: -10vh;
   letter-spacing: 1.5vh;
-  font-size: 7vh;
+  font-size: 4vw;
   font-family: "Jeju Myeongjo", serif;
   color: whitesmoke;
   text-align: left;
 }
 .chinese {
-  font-size: 3vh;
+  font-size: 2vw;
   line-height: 20vh;
   font-family: "Noto Serif KR", serif;
   text-align: right;
@@ -35,12 +49,12 @@
   display: flex;
   justify-content: center;
   margin-top: 5vh;
-  font-size: 2.5vh;
 }
 .language__korean,
 .language__english {
   font-family: "Noto Serif KR", serif;
   font-weight: 600;
+  font-size: 1.5vw;
   text-decoration: none;
   color: whitesmoke;
 }
