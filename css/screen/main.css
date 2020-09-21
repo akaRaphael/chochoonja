@@ -1,34 +1,89 @@
 .main-header__title {
-  border: 1px solid tomato;
-  font-size: 3vw;
+  font-size: 3.5vw;
   text-align: center;
-  padding-top: 1vw;
+  padding: 1vw 2vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  border-bottom: 1px solid black;
+  font-family: "Noto Serif KR", serif;
 }
 
 .main-header__title > span:last-child {
-  padding-top: 1vw;
+  padding-top: 1.5vw;
   font-size: 1.5vw;
+  text-align: center;
 }
 
 .main-header__menubox {
+  border: 1px solid green;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3vw;
-  border: 1px solid green;
+  height: 2vw;
   margin-top: 1vw;
 }
-.menubox--menu {
+.menubox__menu {
   display: flex;
   justify-content: space-evenly;
   width: 50vw;
-  border: 1px solid blue;
+  font-size: 1vw;
+  font-family: "Noto Serif KR", serif;
 }
 
-.menubox--menu > span {
-  border: 2px solid black;
+.menubox__menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu__introduction,
+.menu__works-box,
+.menu__review,
+.menu__contact {
+  height: 1vw;
+  text-align: center;
+  cursor: pointer;
+}
+.works-box__list {
+  padding-top: 1vw;
+  line-height: 2vw;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menu__works-box:hover .works-box__list {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+}
+
+.main--sample-box {
+  border: 1px solid black;
+  margin-top: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main--sample-box div {
+  border: 1px solid tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14vw;
+  height: 19vw;
+  margin-right: 2vw;
+}
+.main--sample-box img {
+  width: 12vw;
+  height: 18vw;
+}
+
+.main--sample-box span {
+  position: fixed;
+  border: 1px solid yellow;
+  font-size: 3vw;
+  color: white;
+  z-index: 2;
 }

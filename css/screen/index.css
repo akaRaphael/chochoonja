@@ -42,17 +42,17 @@
 .chinese {
   font-size: 2vw;
   line-height: 20vh;
-  font-family: "Noto Serif KR", serif;
+  font-family: "Jeju Myeongjo", serif;
   text-align: right;
 }
 .language {
   display: flex;
   justify-content: center;
   margin-top: 5vh;
+  font-family: "Noto Serif KR", serif;
 }
 .language__korean,
 .language__english {
-  font-family: "Noto Serif KR", serif;
   font-weight: 600;
   font-size: 1.5vw;
   text-decoration: none;

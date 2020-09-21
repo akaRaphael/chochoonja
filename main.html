@@ -17,25 +17,47 @@
         <span>The Color of Korea</span>
       </div>
       <div class="main-header__menubox">
-        <div class="menubox--menu">
-          <div>
-            <a href="#">작가 소개</a>
+        <div class="menubox__menu">
+          <div class="menu__introduction" onclick="location.href='#'">
+            <span>작가 소개</span>
           </div>
-          <div>
-            <a href="#">작품</a>
-            <div>test</div>
+          <div class="menu__works-box" onclick="location.href='#'">
+            <span>작품</span>
+            <div class="works-box__list">
+              <ul>
+                <li><a href="#">전시회</a></li>
+                <li><a href="#">드로잉</a></li>
+                <li><a href="#">수월관음도</a></li>
+                <li><a href="#">삽화</a></li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <a href="#">평론</a>
+          <div class="menu__review" onclick="location.href='#'">
+            <span>평론</span>
           </div>
-          <div>
-            <a href="#"></a>문의</a>
+          <div class="menu__contact" onclick="location.href='#'">
+            <span>문의</span>
           </div>
-          
         </div>
       </div>
-      <div class="main-header__menu"></div>
     </header>
-    <main></main>
+    <main class="main--sample-box">
+      <div class="main__quick-exhibition">
+        <span>전<br />시<br />회</span>
+        <img src="./image/1.jpg" class="main__quick-exhibition-img" />
+      </div>
+      <div class="main__quick-drawing">
+        <span>드<br />로<br />잉</span>
+        <img src="./image/2.jpg" class="main__quick-drawing-img" />
+      </div>
+      <div class="main__quick-budhism">
+        <img src="./image/3.jpg" class="main__quick-budhism-img" />
+        <span>수<br />월<br />관<br />음<br />도</span>
+      </div>
+      <div class="main__quick-illustration">
+        <img src="./image/4.jpg" class="main__quick-illustration-img" />
+        <span>삽<br />화</span>
+      </div>
+    </main>
   </body>
 </html>
