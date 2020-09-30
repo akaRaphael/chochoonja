@@ -1,12 +1,19 @@
+.main-header__box {
+  display: flex;
+  justify-content: flex-start;
+}
+.main-header__stamp {
+  width: 5vw;
+}
+
 .main-header__title {
   font-size: 3.5vw;
   text-align: center;
-  padding: 1vw 2vw;
+  padding-top: 1vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  border-bottom: 1px solid black;
   font-family: "Noto Serif KR", serif;
 }
 
@@ -17,7 +24,7 @@
 }
 
 .main-header__menubox {
-  border: 1px solid green;
+  border: 1px solid rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,10 +53,16 @@
   cursor: pointer;
 }
 .works-box__list {
+  display: flex;
+  justify-content: center;
   padding-top: 1vw;
   line-height: 2vw;
   opacity: 0;
   visibility: hidden;
+}
+
+.works-box__list ul {
+  z-index: 1;
 }
 
 .menu__works-box:hover .works-box__list {
@@ -59,31 +72,91 @@
 }
 
 .main--sample-box {
-  border: 1px solid black;
-  margin-top: 4vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 3vw;
+  height: 35vw;
+  position: relative;
 }
 
-.main--sample-box div {
-  border: 1px solid tomato;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 14vw;
-  height: 19vw;
-  margin-right: 2vw;
-}
-.main--sample-box img {
-  width: 12vw;
-  height: 18vw;
+.main__quick {
+  position: relative;
+  width: auto;
+  height: auto;
 }
 
-.main--sample-box span {
-  position: fixed;
-  border: 1px solid yellow;
-  font-size: 3vw;
+.img_hover {
+  position: absolute;
+  margin: 0 auto;
   color: white;
-  z-index: 2;
+  font-size: 2vw;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__quick-70s img {
+  width: 18vw;
+}
+.main__quick-90s img {
+  width: 16vw;
+}
+.main__quick-2006 img {
+  width: 15.5vw;
+}
+.main__quick-2010 img {
+  width: 20vw;
+}
+.main__quick-current img {
+  width: 8.35vw;
+}
+
+.main__quick-fairytale img {
+  width: 22vw;
+}
+.main__quick-buddhism img {
+  width: 12vw;
+}
+
+.main__quick-70s {
+  position: absolute;
+  left: 30.3vw;
+}
+
+.main__quick-90s {
+  position: absolute;
+  top: 15vw;
+  left: 23vw;
+}
+
+.main__quick-2006 {
+  position: absolute;
+  left: 49vw;
+}
+
+.main__quick-2010 {
+  position: absolute;
+  top: 20vw;
+  left: 49vw;
+}
+
+.main__quick-current {
+  position: absolute;
+  top: 15vw;
+  left: 40vw;
+}
+
+/* .main__quick-fairytale {
+  position: absolute;
+  top: 20.7vw;
+  left: 39vw;
+}
+
+.main__quick-buddhism {
+  position: absolute;
+  top: 14vw;
+  left: 62vw; */
 }
