@@ -1,0 +1,72 @@
+.main-header__box {
+  display: flex;
+  justify-content: flex-start;
+  width: auto;
+  cursor: pointer;
+}
+.main-header__stamp {
+  width: 4.2vw;
+}
+
+.main-header__title {
+  padding-top: 0.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 3vw;
+  font-family: "Noto Serif KR", serif;
+}
+
+.main-header__title > span:last-child {
+  padding-top: 1vw;
+  font-size: 1.3vw;
+}
+
+.main-header__menubox {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+  margin-top: 1vw;
+}
+.menubox__menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50vw;
+  font-size: 1vw;
+  font-family: "Noto Serif KR", serif;
+}
+
+.works-box__list a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu__introduction,
+.menu__works-box,
+.menu__review,
+.menu__contact {
+  height: 1vw;
+  text-align: center;
+  cursor: pointer;
+}
+.works-box__list {
+  display: flex;
+  justify-content: center;
+  padding-top: 1vw;
+  line-height: 2vw;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.works-box__list ul {
+  z-index: 1;
+}
+
+.menu__works-box:hover .works-box__list {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+}

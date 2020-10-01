@@ -1,76 +1,3 @@
-.main-header__box {
-  display: flex;
-  justify-content: flex-start;
-}
-.main-header__stamp {
-  width: 5vw;
-}
-
-.main-header__title {
-  font-size: 3.5vw;
-  text-align: center;
-  padding-top: 1vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  font-family: "Noto Serif KR", serif;
-}
-
-.main-header__title > span:last-child {
-  padding-top: 1.5vw;
-  font-size: 1.5vw;
-  text-align: center;
-}
-
-.main-header__menubox {
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 2vw;
-  margin-top: 1vw;
-}
-.menubox__menu {
-  display: flex;
-  justify-content: space-evenly;
-  width: 50vw;
-  font-size: 1vw;
-  font-family: "Noto Serif KR", serif;
-}
-
-.menubox__menu a {
-  text-decoration: none;
-  color: black;
-}
-
-.menu__introduction,
-.menu__works-box,
-.menu__review,
-.menu__contact {
-  height: 1vw;
-  text-align: center;
-  cursor: pointer;
-}
-.works-box__list {
-  display: flex;
-  justify-content: center;
-  padding-top: 1vw;
-  line-height: 2vw;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.works-box__list ul {
-  z-index: 1;
-}
-
-.menu__works-box:hover .works-box__list {
-  opacity: 1;
-  visibility: visible;
-  cursor: pointer;
-}
-
 .main--sample-box {
   margin-top: 3vw;
   height: 35vw;
@@ -85,17 +12,25 @@
 
 .img_hover {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   margin: 0 auto;
-  color: white;
   font-size: 2vw;
   top: 0%;
   left: 0%;
   width: 100%;
   height: 100%;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+  opacity: 0;
+  color: transparent;
+  transition: background-color 0.6s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.img_hover:hover {
+  opacity: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .main__quick-70s img {
@@ -158,5 +93,5 @@
 .main__quick-buddhism {
   position: absolute;
   top: 14vw;
-  left: 62vw; */
-}
+  left: 62vw; 
+}*/

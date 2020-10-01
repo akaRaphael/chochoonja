@@ -1,6 +1,7 @@
 @import "reset.css";
 
 /*Components*/
+@import "components/main-header.css";
 
 /*Screens*/
 @import "screen/index.css";
