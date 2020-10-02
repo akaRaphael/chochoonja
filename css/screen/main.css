@@ -25,6 +25,7 @@
   opacity: 0;
   color: transparent;
   transition: background-color 0.6s ease-in-out, opacity 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .img_hover:hover {

@@ -1,0 +1,64 @@
+.main-buddhism {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-buddhism a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-buddhism__sidebar {
+  font-family: "Noto Serif KR", serif;
+  display: flex;
+  justify-content: center;
+  width: 10vw;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1vw;
+  width: 8vw;
+  height: 75vh;
+  padding: 2vw 1vw;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.sidebar-title {
+  height: fit-content;
+  margin-top: 2vw;
+  font-size: 1.2vw;
+}
+
+.chronograph__ul {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 0.5vw;
+  padding-bottom: 2vw;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.3);
+}
+
+.chronograph__ul li {
+  margin-top: 1.5vw;
+  font-size: 0.9vw;
+  text-align: center;
+}
+
+.sidebar-container__buddihsm {
+  margin-bottom: 1vw;
+}
+
+.main-buddhism__content {
+  border: 1px solid red;
+  margin-top: 1vw;
+  width: 88vw;
+  height: 77vh;
+  overflow-y: hidden;
+  margin-left: 1vw;
+}
