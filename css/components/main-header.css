@@ -1,3 +1,11 @@
+.main-header {
+  height: 20%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
 .main-header__box {
   display: flex;
   justify-content: flex-start;
@@ -20,21 +28,22 @@
 
 .main-header__title > span:last-child {
   padding-top: 1vw;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
 }
 
 .main-header__menubox {
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 2vw;
   margin-top: 1vw;
+  height: 2vw;
 }
 .menubox__menu {
   display: flex;
   justify-content: space-evenly;
-  width: 50vw;
+  align-items: center;
+  width: 100%;
   font-size: 1vw;
   font-family: "Noto Serif KR", serif;
 }
@@ -52,16 +61,18 @@
   text-align: center;
   cursor: pointer;
 }
+
+.menu__works-box {
+  position: relative;
+}
 .works-box__list {
-  display: flex;
-  justify-content: center;
+  position: absolute;
+  width: max-content;
+  left: -100%;
   padding-top: 1vw;
-  line-height: 2vw;
+  line-height: 2.2vw;
   opacity: 0;
   visibility: hidden;
-}
-
-.works-box__list ul {
   z-index: 1;
 }
 

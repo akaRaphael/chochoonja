@@ -8,8 +8,16 @@
 @import "screen/index.css";
 @import "screen/main.css";
 @import "screen/buddhism.css";
+@import "screen/artwork.css";
+
+html {
+  width: 100%;
+  height: 100%;
+}
 
 body {
+  width: 100%;
+  height: 100%;
   font-weight: 600;
-  overflow-y: hidden;
+  overflow: auto;
 }

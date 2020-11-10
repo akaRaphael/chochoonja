@@ -1,0 +1,11 @@
+.main-artwork {
+  height: 79.9%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-artwork__content {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
