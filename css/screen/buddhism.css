@@ -1,0 +1,20 @@
+.main-buddhism__content {
+  border: 1px solid red;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buddhism__content__left {
+  border: 1px solid blue;
+  width: 40%;
+  height: 100%;
+}
+
+.buddhism__content__right {
+  border: 1px solid green;
+  width: 60%;
+  height: 100%;
+}

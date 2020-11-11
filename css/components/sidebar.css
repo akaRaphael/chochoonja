@@ -8,8 +8,9 @@
   display: flex;
   justify-content: center;
   width: fit-content;
-  height: 100%;
+  height: auto;
   border-right: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 1%;
 }
 
 .sidebar-container {
@@ -18,13 +19,12 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  padding: 2vw 1vw;
 }
 
 .sidebar-title {
   height: fit-content;
   margin: 1vw 0vw;
-  font-size: 1vw;
+  font-size: 0.8vw;
   width: max-content;
 }
 
@@ -34,13 +34,13 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-bottom: 2vh;
+  padding-bottom: 10%;
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.3);
 }
 
 .chronograph__ul li {
   margin-bottom: 3vh;
-  font-size: 0.8vw;
+  font-size: 0.7vw;
   text-align: center;
 }
 

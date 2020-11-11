@@ -10,8 +10,6 @@
 }
 
 .index-body {
-  background-image: url(../010.jpg);
-  background-repeat: repeat-x;
   animation: titleFadeAction 2s ease-in-out forwards;
 }
 
@@ -21,7 +19,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  border-bottom: 3px solid whitesmoke;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 }
 
 .title__container {
@@ -36,8 +34,8 @@
   letter-spacing: 1.5vh;
   font-size: 4vw;
   font-family: "Jeju Myeongjo", serif;
-  color: whitesmoke;
   text-align: left;
+  color: rgba(0, 0, 0, 0.8);
 }
 .chinese {
   font-size: 2vw;
@@ -56,7 +54,7 @@
   font-weight: 600;
   font-size: 1.5vw;
   text-decoration: none;
-  color: whitesmoke;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 @media screen and (max-width: 299px) {
