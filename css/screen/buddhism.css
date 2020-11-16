@@ -1,20 +1,60 @@
 .main-buddhism__content {
-  border: 1px solid red;
-  width: 100%;
-  padding: 2%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    border: 1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
 }
 
-.buddhism__content__left {
-  border: 1px solid blue;
-  width: 40%;
-  height: 100%;
+.buddhism__content_left {
+    border: 1px solid blue;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: auto;
 }
 
-.buddhism__content__right {
-  border: 1px solid green;
-  width: 60%;
-  height: 100%;
+.left__picture_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left__explanation {
+    margin-top: 0.5vw;
+    font-size: 0.9vw;
+}
+
+.buddhism_entire {
+    width: 60%;
+}
+
+.buddhism__content_right {
+    border: 1px solid green;
+    width: 60%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.right__picture__line {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+
+.partition {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 0.1vw;
+}
+
+.partition > img {
+    width: 4vw;
 }
