@@ -1,141 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>은섬 조춘자 - 한국의 채색화</title>
-  </head>
-  <body>
-    <header class="main-header">
-      <div class="main-header__box" onclick="location.href='./main.html'">
-        <img src="image/main/stamp-big.png" class="main-header__stamp" />
-        <div class="main-header__title">
-          <span>Jo Choon Ja</span>
-          <span>The Color of Korea</span>
+
+<head>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>은섬 조춘자 - 한국의 채색화</title>
+</head>
+<body>
+  <header class="main-header">
+    <div class="main-header__box" onclick="location.href='./main.html'">
+      <img src="image/main/stamp-big.png" class="main-header__stamp" />
+      <div class="main-header__title">
+        <span>Jo Choon Ja</span>
+        <span>The Color of Korea</span>
+      </div>
+    </div>
+    <div class="main-header__menubox">
+      <div class="menubox__menu">
+        <div class="menu__introduction" onclick="location.href='./introduction.html'">
+          <span>작가 소개</span>
+        </div>
+        <div class="menu__works-box" onclick="location.href='./1970.html'">
+          <span>작품</span>
+          <div class="works-box__list">
+            <ul>
+              <li><a href="1970.html">연도별 대표작</a></li>
+              <li><a href="buddhism.html">수월관음도</a></li>
+              <li><a href="illustration.html">질라래비</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu__review" onclick="location.href='./review.html'">
+          <span>평론</span>
+        </div>
+        <div class="menu__contact" onclick="location.href='./contact.html'">
+          <span>문의</span>
         </div>
       </div>
-      <div class="main-header__menubox">
-        <div class="menubox__menu">
-          <div
-            class="menu__introduction"
-            onclick="location.href='./introduction.html'"
-          >
-            <span>작가 소개</span>
-          </div>
-          <div class="menu__works-box" onclick="location.href='./1970.html'">
-            <span>작품</span>
-            <div class="works-box__list">
-              <ul>
-                <li><a href="1970.html">연도별 대표작</a></li>
-                <li><a href="buddhism.html">수월관음도</a></li>
-                <li><a href="illustration.html">질라래비</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="menu__review" onclick="location.href='./review.html'">
-            <span>평론</span>
-          </div>
-          <div class="menu__contact" onclick="location.href='./contact.html'">
-            <span>문의</span>
-          </div>
+    </div>
+  </header>
+  <main class="main-artwork">
+    <nav class="main-artwork__sidebar">
+      <div class="sidebar-container">
+        <span class="sidebar-container__chronograph sidebar-title">연도별 대표작</span>
+        <ul class="chronograph__ul">
+          <li><a href="1970.html">1970 - 1980</a></li>
+          <li><a href="1990.html">1990 - 2005</a></li>
+          <li><a href="2006.html">2006 - 2009</a></li>
+          <li><a href="2010.html">2010 - 2011</a></li>
+          <li><a href="2012.html">2012 - 2020</a></li>
+        </ul>
+        <span class="sidebar-container__buddihsm sidebar-title">
+          <a href="buddhism.html">수월관음도</a>
+        </span>
+        <span class="sidebar-container__fairytale sidebar-title">
+          <a href="illustration.html">질라래비</a>
+        </span>
+      </div>
+    </nav>
+    <div class="main-buddhism__content main-artwork__content">
+      <div class="buddhism__content_left">
+        <div class="left__picture_container">
+          <img class="buddhism_entire" src="./image/buddism/entire.png" />
         </div>
       </div>
-    </header>
-    <main class="main-artwork">
-      <nav class="main-artwork__sidebar">
-        <div class="sidebar-container">
-          <span class="sidebar-container__chronograph sidebar-title"
-            >연도별 대표작</span
-          >
-          <ul class="chronograph__ul">
-            <li><a href="1970.html">1970 - 1980</a></li>
-            <li><a href="1990.html">1990 - 2005</a></li>
-            <li><a href="2006.html">2006 - 2009</a></li>
-            <li><a href="2010.html">2010 - 2011</a></li>
-            <li><a href="2012.html">2012 - 2020</a></li>
-          </ul>
-          <span class="sidebar-container__buddihsm sidebar-title">
-            <a href="buddhism.html">수월관음도</a>
-          </span>
-          <span class="sidebar-container__fairytale sidebar-title">
-            <a href="illustration.html">질라래비</a>
-          </span>
-        </div>
-      </nav>
-      <div class="main-buddhism__content main-artwork__content">
-        <div class="buddhism__content_left">
-          <div class="left__picture_container">
-            <img class="buddhism_entire" src="./image/buddism/entire.png"/>
-            <div class="left__explanation">
-              <a href="#">*확대를 위해 이미지를 클릭해주세요.</a>
-            </div>
-          </div>
-        </div>
-        <div class="buddhism__content_right">
-          <ul class="right__picture_container">
-            <li class="right__picture__line">
-              <div class="partition">
-                <img src="./image/buddism/1.jpeg"/>
-              </div>
-              <div class="partition">
-                <img src="./image/buddism/2.jpeg"/>
-              </div>
-              <div class="partition">
-                <img src="./image/buddism/3.jpeg"/>
-              </div>
-            </li>
-            <li class="right__picture__line">
-              <div class="partition">
-                <img src="./image/buddism/4.jpeg"/>
-              </div>
-              <div class="partition">
-                <img src="./image/buddism/5.jpeg"/>
-              </div>
-              <div class="partition">
-                <img src="./image/buddism/6.jpeg"/>
-              </div>
-            </li>
-            <li class="right__picture__line">
-              <div class="partition">
-                <img src="./image/buddism/7.jpeg"/>
-              </div>
-              <div class="partition">
-                <img src="./image/buddism/8.jpeg"/>
-              </div>
-              <div class="partition">
-                <img src="./image/buddism/9.jpeg"/>
-              </div>
-            </li>
-            <li class="right__picture__line">
-              <div class="partition">
-                <img src="./image/buddism/10.jpeg"/>
-              </div>
-              <div class="partition">
-                <img src="./image/buddism/11.jpeg"/>
-              </div>
-              <div class="partition">
-                <img src="./image/buddism/12.jpeg"/>
-              </div>
-            </li>
-            <li class="right__picture__line">
-              <div class="partition">
-                <img src="./image/buddism/13.jpeg"/>
-              </div>
-              <div class="partition">
-                <img src="./image/buddism/14.jpeg"/>
-              </div>
-              <div class="partition">
-                <img src="./image/buddism/15.jpeg"/>
-              </div>
-            </li>
-          </ul>
-        </div>
+      <div class="buddhism__content_right">
+        <div class="buddhism__right__kor_title">수월관음도(水月觀音圖)</div>
+        <div class="buddhism__right__eng_title">Suwol Gwaneumdo</div>
+        <div class="buddhism__right__size">수월관음도 크기</div>
+        <div class="buddhism__right__explanation">그림 그린 날짜</div>
+        <div class="buddhism__right__explanation">그림 타입 (한국화, 수채화), 캔버스 재질)</div>
+        <div class="buddhism__right__explanation">그림 재료 (캔버스 재질)</div>
+        <div class="copyright">COPYRIGHT ⓒ 한국화가 조춘자, All Rights Reserved.</div>
       </div>
-    </main>
-  </body>
+    </div>
+    </div>
+  </main>
+</body>
 </html>
