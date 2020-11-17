@@ -26,13 +26,14 @@
 .buddhism_entire {
   position: absolute;
   width: 85%;
+  cursor: pointer;
   box-shadow: 0.5vw 0.7vw 0.5vw 0.1vw rgba(0, 0, 0, 0.6);
 }
 
 .buddhism__content_right {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: flex-start;
   width: 20%;
   height: 50%;
@@ -40,13 +41,21 @@
   border: 1px solid red;
 }
 
-.buddhism__right__kor_title {
+.buddhism__right__title__kor {
   font-size: 1.4vw;
   margin-bottom: 0.5vw;
-  border: 1px solid black;
 }
 
-.buddhism__right__eng_title {
+.buddhism__right__title__eng {
   font-size: 1vw;
   margin-bottom: 1vw;
+}
+
+.buddhism__info {
+  font-size: 0.7vw;
+  margin-bottom: 1vw;
+}
+
+.buddhism__info__container {
+  border: 1px solid black;
 }

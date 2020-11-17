@@ -1,6 +1,9 @@
 .main--sample-box {
-  margin-top: 3vw;
+  padding-top: 3vw;
   position: relative;
+  width: 100%;
+  height: 70%;
+  font-family: "Jeju Myeongjo", serif;
 }
 
 .main__quick {
@@ -63,7 +66,7 @@
 
 .main__quick-90s {
   position: absolute;
-  top: 15vw;
+  top: 18vw;
   left: 23vw;
 }
 
@@ -74,13 +77,13 @@
 
 .main__quick-2010 {
   position: absolute;
-  top: 20vw;
+  top: 23vw;
   left: 49vw;
 }
 
 .main__quick-current {
   position: absolute;
-  top: 15vw;
+  top: 18vw;
   left: 40vw;
 }
 
