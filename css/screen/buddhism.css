@@ -1,19 +1,44 @@
+.modal_container {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  visibility: hidden;
+}
+
+.modal__image_container {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 20%;
+}
+
+.modal__image {
+  width: 40vw;
+}
+
 .main-buddhism__content {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.buddhism__content_left {
+.buddhism__content__picture {
   width: 50%;
-  height: 99%;
+  height: 95%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   overflow: auto;
 }
 
-.left__picture_container {
+.buddhism__picture_container {
   position: relative;
   width: 50%;
   height: 90%;
@@ -27,35 +52,35 @@
   position: absolute;
   width: 85%;
   cursor: pointer;
-  box-shadow: 0.5vw 0.7vw 0.5vw 0.1vw rgba(0, 0, 0, 0.6);
+  box-shadow: 0.5vw 0.6vw 0.5vw 0.1vw rgba(0, 0, 0, 0.6);
 }
 
-.buddhism__content_right {
+.buddhism__content_info {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  width: 20%;
-  height: 50%;
-  padding-left: 1vw;
-  border: 1px solid red;
+  width: 25%;
+  height: 80%;
+  padding-left: 3vw;
 }
 
-.buddhism__right__title__kor {
-  font-size: 1.4vw;
-  margin-bottom: 0.5vw;
+.buddhism__info__title__kor {
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
 }
 
-.buddhism__right__title__eng {
+.buddhism__info__title__eng {
   font-size: 1vw;
+}
+
+.buddhism__info_details {
+  font-size: 0.9vw;
   margin-bottom: 1vw;
 }
 
-.buddhism__info {
-  font-size: 0.7vw;
-  margin-bottom: 1vw;
-}
-
-.buddhism__info__container {
-  border: 1px solid black;
+.buddhism__etc__copyright,
+.buddhism__etc__enlarge {
+  font-size: 0.9vw;
+  margin-bottom: 2vw;
 }

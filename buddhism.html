@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet" />
@@ -9,6 +8,11 @@
   <title>은섬 조춘자 - 한국의 채색화</title>
 </head>
 <body>
+  <div class="modal_container">
+    <div class="modal__image_container">
+      <img class="modal__image" src="image/buddism/modal_entire.png"/>
+    </div>
+  </div>
   <header class="main-header">
     <div class="main-header__box" onclick="location.href='./main.html'">
       <img src="image/main/stamp-big.png" class="main-header__stamp" />
@@ -61,29 +65,30 @@
       </div>
     </nav>
     <div class="main-buddhism__content main-artwork__content">
-      <div class="buddhism__content_left">
-        <div class="left__picture_container">
+      <div class="buddhism__content__picture">
+        <div class="buddhism__picture_container">
           <img class="buddhism_entire" src="./image/buddism/entire.png" />
         </div>
       </div>
-      <div class="buddhism__content_right">
-        <div class="buddhism__right__title_container buddhism__info__container">
-          <div class="buddhism__right__title__kor">수월관음도(水月觀音圖)</div>
-          <div class="buddhism__right__title__eng">Suwol Gwaneumdo</div>
+      <div class="buddhism__content_info">
+        <div class="buddhism__info__title_container">
+          <div class="buddhism__info__title__kor">수월관음도(水月觀音圖)</div>
+          <div class="buddhism__info__title__eng">Suwol Gwaneumdo</div>
         </div>
-        <div class="buddhism__right__info buddhism__info__container">
-          <div class="buddhism__right__info_size buddhism__info">수월관음도 크기</div>
-          <div class="buddhism__right__info_date buddhism__info">그림 그린 날짜</div>
-          <div class="buddhism__right__info_type buddhism__info">그림 타입 (한국화, 수채화), 캔버스 재질)</div>
-          <div class="buddhism__right__info_material buddhism__info">그림 재료 (캔버스 재질)</div>
+        <div class="buddhism__info">
+          <div class="buddhism__info_size buddhism__info_details">수월관음도 크기</div>
+          <div class="buddhism__info_date buddhism__info_details">그림 그린 날짜</div>
+          <div class="buddhism__info_type buddhism__info_details">그림 타입 (한국화, 수채화)</div>
+          <div class="buddhism__info_material buddhism__info_details">그림 재료 (캔버스 재질)</div>
         </div>
-        <div class="buddhism__right__etc buddhism__info__container">
-          <div class="copyright">COPYRIGHT ⓒ 한국화가 조춘자, All Rights Reserved.</div>
-          <div class="modal_info">* 그림을 클릭하면 확대됩니다.</div>
+        <div class="buddhism__etc">
+          <div class="buddhism__etc__enlarge">* 그림을 클릭하면 확대됩니다.</div>
+          <div class="buddhism__etc__copyright">COPYRIGHT ⓒ 한국화가 조춘자, All Rights Reserved.</div>
         </div>
       </div>
     </div>
     </div>
   </main>
+  <script src="buddhismModal.js"></script>
 </body>
 </html>
