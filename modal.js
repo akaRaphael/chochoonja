@@ -7,7 +7,6 @@ const art_page = body.getAttribute("class");
 
 function modalOpen(event) {
   if (art_page === "art_buddhism") {
-    console.log(art_page);
     modal_img.style.width = "30vw";
   }
 
