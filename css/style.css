@@ -4,12 +4,12 @@
 @import "components/main-header.css";
 @import "components/sidebar.css";
 @import "components/modal.css";
+@import "components/artwork.css";
 
 /*Screens*/
 @import "screen/index.css";
 @import "screen/main.css";
 @import "screen/buddhism.css";
-@import "screen/artwork.css";
 @import "screen/1970.css";
 
 html {
