@@ -1,0 +1,24 @@
+.modal_container {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  visibility: hidden;
+}
+
+.modal__image_container {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 20%;
+}
+
+.modal__image {
+  width: 40vw;
+}
