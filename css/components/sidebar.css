@@ -34,8 +34,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-bottom: 10%;
-  border-bottom: 1.5px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.6);
 }
 
 .chronograph__ul li {
@@ -43,7 +42,19 @@
   font-size: 0.7vw;
   text-align: center;
 }
+.chronograph__ul li a {
+  color: rgba(0, 0, 0, 0.4);
+}
 
 .sidebar-container__buddihsm {
+  margin-top: 1.5vw;
   margin-bottom: 1vw;
+}
+
+.sidebar-container__buddihsm a {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.sidebar-container__fairytale a {
+  color: rgba(0, 0, 0, 0.4);
 }

@@ -10,7 +10,11 @@
 @import "screen/index.css";
 @import "screen/main.css";
 @import "screen/buddhism.css";
-@import "screen/1970.css";
+@import "screen/1990.css";
+@import "screen/2006.css";
+@import "screen/2010.css";
+@import "screen/2012.css";
+@import "screen/fairytale.css";
 
 html {
   width: 100%;
@@ -22,4 +26,8 @@ body {
   height: 100%;
   font-weight: 600;
   overflow: auto;
+}
+
+#clicked_menu {
+  color: black;
 }

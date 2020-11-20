@@ -10,7 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>은섬 조춘자 - 한국의 채색화</title>
   </head>
-  <body>
+  <body
+    class="art_2010"
+    oncontextmenu="false"
+    onselect="false"
+    ondragstart="false"
+  >
+    <div class="modal_container">
+      <div class="modal__image_container">
+        <img class="modal__image" location="" />
+      </div>
+    </div>
     <header class="main-header">
       <div class="main-header__box" onclick="location.href='./main.html'">
         <img src="image/main/stamp-big.png" class="main-header__stamp" />
@@ -27,13 +37,17 @@
           >
             <span>작가 소개</span>
           </div>
-          <div class="menu__works-box" onclick="location.href='./1970.html'">
+          <div
+            class="menu__works-box"
+            id="clicked_menu"
+            onclick="location.href='./1970.html'"
+          >
             <span>작품</span>
             <div class="works-box__list">
               <ul>
                 <li><a href="1970.html">연도별 대표작</a></li>
                 <li><a href="buddhism.html">수월관음도</a></li>
-                <li><a href="illustration.html">질라래비</a></li>
+                <li><a href="fairytale.html">질라래비</a></li>
               </ul>
             </div>
           </div>
@@ -53,21 +67,233 @@
             >연도별 대표작</span
           >
           <ul class="chronograph__ul">
-            <li><a href="1970.html">1970 - 1980</a></li>
+            <li><a href="1970.html">1970 - 1990</a></li>
             <li><a href="1990.html">1990 - 2005</a></li>
             <li><a href="2006.html">2006 - 2009</a></li>
-            <li><a href="2010.html">2010 - 2011</a></li>
+            <li><a id="clicked_menu" href="2010.html">2010 - 2011</a></li>
             <li><a href="2012.html">2012 - 2020</a></li>
           </ul>
           <span class="sidebar-container__buddihsm sidebar-title">
             <a href="buddhism.html">수월관음도</a>
           </span>
           <span class="sidebar-container__fairytale sidebar-title">
-            <a href="illustration.html">질라래비</a>
+            <a href="fairytale.html">질라래비</a>
           </span>
         </div>
       </nav>
-      <div class="main-1970__content main-artwork__content"></div>
+      <div class="main-artwork__content">
+        <ul class="artwork__ul">
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_minkyung"
+                modal="image/2010/minkyung.jpg"
+                src="image/2010/minkyung.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">민경</span>
+              <span class="artwork__info_details">2010</span>
+              <span class="artwork__info_details">117 * 72.7cm</span>
+            </div>
+          </li>
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman1"
+                modal="image/2010/woman1.jpg"
+                src="image/2010/woman1.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2010</span>
+              <span class="artwork__info_details">60 * 120cm</span>
+            </div>
+          </li>
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman2"
+                modal="image/2010/woman2.jpg"
+                src="image/2010/woman2.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2010</span>
+              <span class="artwork__info_details">81 * 65cm</span>
+            </div>
+          </li>
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman3"
+                modal="image/2010/woman3.jpg"
+                src="image/2010/woman3.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2010</span>
+              <span class="artwork__info_details">91 * 72.7cm</span>
+            </div>
+          </li>
+        </ul>
+        <ul class="artwork__ul">
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman4"
+                modal="image/2010/woman4.jpg"
+                src="image/2010/woman4.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2010</span>
+              <span class="artwork__info_details">110 * 110cm</span>
+            </div>
+          </li>
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman5"
+                modal="image/2010/woman5.jpg"
+                src="image/2010/woman5.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2010</span>
+              <span class="artwork__info_details">170 * 100cm</span>
+            </div>
+          </li>
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman6"
+                modal="image/2010/woman6.jpg"
+                src="image/2010/woman6.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2010</span>
+              <span class="artwork__info_details">170 * 101cm</span>
+            </div>
+          </li>
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman7"
+                modal="image/2010/woman7.jpg"
+                src="image/2010/woman7.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2011</span>
+              <span class="artwork__info_details">53 * 33.3cm</span>
+            </div>
+          </li>
+        </ul>
+        <ul class="artwork__ul">
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman8"
+                modal="image/2010/woman8.jpg"
+                src="image/2010/woman8.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2011</span>
+              <span class="artwork__info_details">18 * 26cm</span>
+            </div>
+          </li>
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman9"
+                modal="image/2010/woman9.jpg"
+                src="image/2010/woman9.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2011</span>
+              <span class="artwork__info_details">25.8 * 18cm</span>
+            </div>
+          </li>
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman10"
+                modal="image/2010/woman10.jpg"
+                src="image/2010/woman10.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2011</span>
+              <span class="artwork__info_details">41 * 24cm</span>
+            </div>
+          </li>
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman11"
+                modal="image/2010/woman11.jpg"
+                src="image/2010/woman11.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2011</span>
+              <span class="artwork__info_details">41 * 65cm</span>
+            </div>
+          </li>
+        </ul>
+        <ul class="artwork__ul">
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman12"
+                modal="image/2010/woman12.jpg"
+                src="image/2010/woman12.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2011</span>
+              <span class="artwork__info_details">56 * 40cm</span>
+            </div>
+          </li>
+          <li class="artwork__ul__li">
+            <div class="artwork__image_container">
+              <img
+                class="artwork__image_tag artwork_2010_woman13"
+                modal="image/2010/woman13.jpg"
+                src="image/2010/woman13.jpg"
+              />
+            </div>
+            <div class="artwork__info_container">
+              <span class="artwork__info_details">여인</span>
+              <span class="artwork__info_details">2011</span>
+              <span class="artwork__info_details">120 * 50cm</span>
+            </div>
+          </li>
+          <li class="artwork__ul__li"></li>
+          <li class="artwork__ul__li"></li>
+        </ul>
+
+        <div class="copyright_warning">
+          COPYRIGHT ⓒ 한국화가 조춘자, All Rights Reserved.
+        </div>
+      </div>
     </main>
+    <script src="modal.js"></script>
   </body>
 </html>

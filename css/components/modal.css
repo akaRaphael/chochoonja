@@ -13,11 +13,6 @@
   overflow: auto;
 }
 
-.modal__image_container {
-  width: fit-content;
-  height: fit-content;
-}
-
 .modal__image {
-  width: 40vw;
+  width: 35vw;
 }

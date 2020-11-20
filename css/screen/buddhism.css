@@ -33,10 +33,10 @@
 .buddhism__content_info {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-start;
   width: 25%;
-  height: 80%;
+  height: 60%;
   padding-left: 3vw;
 }
 
@@ -56,6 +56,6 @@
 
 .buddhism__etc__copyright,
 .buddhism__etc__enlarge {
-  font-size: 0.9vw;
-  margin-bottom: 2vw;
+  font-size: 0.8vw;
+  margin-bottom: 1vw;
 }
