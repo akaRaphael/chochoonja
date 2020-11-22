@@ -1,11 +1,108 @@
-.main__photo {
-  border: 1px solid black;
-  width: 50%;
-  height: 50%;
+.main_content_container {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
 }
 
-.main__profile {
-  border: 1px solid black;
-  width: 50%;
-  height: 50%;
+.profile_container__top,
+.profile_container__bottom {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.profile_container__top {
+  align-items: center;
+  margin-top: 2vw;
+}
+.profile_container__bottom {
+  margin-bottom: 15vw;
+}
+.profile_container__top__left,
+.profile_container__top__right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_container__top__right {
+  height: 20vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.profile__name,
+.profile__current {
+  width: 100%;
+  height: 13%;
+  font-size: 1.4vw;
+}
+
+.profile__current {
+  font-size: 0.8vw;
+}
+
+.profile_photo {
+  width: 80%;
+  box-shadow: 0.1vw 0.1vw 0.7vw 0.1vw rgba(0, 0, 0, 0.6);
+}
+
+.profile_container__bottom__left,
+.profile_container__bottom__mid,
+.profile_container__bottom__right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile__individual_title,
+.profile__group_title,
+.profile__award_title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+  padding-bottom: 0.6vw;
+  margin-bottom: 1vw;
+  margin-top: 3vw;
+  font-size: 0.8vw;
+  border-bottom: 0.1vw solid rgba(0, 0, 0, 0.3);
+}
+
+.profile__individual_history,
+.profile__group_history,
+.profile__award_history {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.individual_history__ul,
+.group_history__ul,
+.award_history__ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 3vh;
+  width: 100%;
+  font-size: 0.6vw;
+}
+.individual_history__li_year,
+.group_history__li_year,
+.award_history__li_year {
+  width: 20%;
+  text-align: end;
+  margin-right: 1vw;
 }
