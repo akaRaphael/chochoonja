@@ -1,0 +1,11 @@
+.main__photo {
+  border: 1px solid black;
+  width: 50%;
+  height: 50%;
+}
+
+.main__profile {
+  border: 1px solid black;
+  width: 50%;
+  height: 50%;
+}

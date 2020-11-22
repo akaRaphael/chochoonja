@@ -15,6 +15,7 @@
 @import "screen/2010.css";
 @import "screen/2012.css";
 @import "screen/fairytale.css";
+@import "screen/introduction.css";
 
 html {
   width: 100%;
