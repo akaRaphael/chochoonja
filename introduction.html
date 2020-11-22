@@ -10,7 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>은섬 조춘자 - 한국의 채색화</title>
   </head>
-  <body>
+  <body
+    class="art_1970"
+    oncontextmenu="false"
+    onselect="false"
+    ondragstart="false"
+  >
+    <div class="modal_container">
+      <div class="modal__image_container">
+        <img class="modal__image" location="" />
+      </div>
+    </div>
     <header class="main-header">
       <div class="main-header__box" onclick="location.href='./main.html'">
         <img src="image/main/stamp-big.png" class="main-header__stamp" />
@@ -23,6 +33,7 @@
         <div class="menubox__menu">
           <div
             class="menu__introduction"
+            id="clicked_menu"
             onclick="location.href='./introduction.html'"
           >
             <span>작가 소개</span>
@@ -33,7 +44,7 @@
               <ul>
                 <li><a href="1970.html">연도별 대표작</a></li>
                 <li><a href="buddhism.html">수월관음도</a></li>
-                <li><a href="illustration.html">질라래비</a></li>
+                <!-- <li><a href="fairytale.html">질라래비</a></li> -->
               </ul>
             </div>
           </div>
@@ -46,6 +57,6 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="main-artwork"></main>
   </body>
 </html>
