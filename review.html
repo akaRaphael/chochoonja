@@ -10,7 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>은섬 조춘자 - 한국의 채색화</title>
   </head>
-  <body>
+  <body class="body_profile">
+    <div class="modal_container">
+      <div class="modal__image_container">
+        <img class="modal__image" location="" />
+      </div>
+    </div>
     <header class="main-header">
       <div class="main-header__box" onclick="location.href='./main.html'">
         <img src="image/main/stamp-big.png" class="main-header__stamp" />
@@ -27,25 +32,57 @@
           >
             <span>작가 소개</span>
           </div>
-          <div class="menu__works-box" onclick="location.href='./1970.html'">
+          <div class="menu__works-box" onclick="location.href='1970.html'">
             <span>작품</span>
             <div class="works-box__list">
               <ul>
                 <li><a href="1970.html">연도별 대표작</a></li>
                 <li><a href="buddhism.html">수월관음도</a></li>
-                <li><a href="illustration.html">질라래비</a></li>
+                <!-- <li><a href="fairytale.html">질라래비</a></li> -->
               </ul>
             </div>
           </div>
-          <div class="menu__review" onclick="location.href='./review.html'">
+          <div
+            class="menu__review"
+            id="clicked_menu"
+            onclick="location.href='review.html'"
+          >
             <span>평론</span>
           </div>
-          <div class="menu__contact" onclick="location.href='./contact.html'">
+          <div class="menu__contact" onclick="location.href='contact.html'">
             <span>문의</span>
           </div>
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="main-artwork main-review">
+      <div class="main__review_container">
+        <div class="review_container__title">
+          사색과 각성의 기회<br />
+          조춘자 회화공간의 특징
+        </div>
+        <div class="review_container__author">
+          이희영(Heui-yeong Yi), 미술평론가
+        </div>
+        <div class="review_container__content"></div>
+      </div>
+      <div class="main__review_container">
+        <div class="review_container__title">
+          조춘자 - 선으로 이루어진 여성의 몸<br />
+        </div>
+        <div class="review_container__author">박영택(경기대교수, 미술평론)</div>
+        <div class="review_container__content"></div>
+      </div>
+      <div class="main__review_container">
+        <div class="review_container__title">평론</div>
+        <div class="review_container__author">김영순, 미술평론가</div>
+        <div class="review_container__content"></div>
+      </div>
+      <div class="main__review_container">
+        <div class="review_container__title">평론</div>
+        <div class="review_container__author">이재언, 미술평론가</div>
+        <div class="review_container__content"></div>
+      </div>
+    </main>
   </body>
 </html>
