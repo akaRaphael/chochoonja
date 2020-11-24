@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>은섬 조춘자 - 한국의 채색화</title>
   </head>
-  <body>
+  <body class="body_contact">
     <header class="main-header">
       <div class="main-header__box" onclick="location.href='./main.html'">
         <img src="image/main/stamp-big.png" class="main-header__stamp" />
@@ -27,25 +27,40 @@
           >
             <span>작가 소개</span>
           </div>
-          <div class="menu__works-box" onclick="location.href='./1970.html'">
+          <div class="menu__works-box" onclick="location.href='1970.html'">
             <span>작품</span>
             <div class="works-box__list">
               <ul>
                 <li><a href="1970.html">연도별 대표작</a></li>
                 <li><a href="buddhism.html">수월관음도</a></li>
-                <!-- <li><a href="illustration.html">질라래비</a></li> -->
+                <!-- <li><a href="fairytale.html">질라래비</a></li> -->
               </ul>
             </div>
           </div>
-          <div class="menu__review" onclick="location.href='./review.html'">
+          <div class="menu__review" onclick="location.href='review.html'">
             <span>평론</span>
           </div>
-          <div class="menu__contact" onclick="location.href='./contact.html'">
+          <div
+            id="clicked_menu"
+            class="menu__contact"
+            onclick="location.href='contact.html'"
+          >
             <span>문의</span>
           </div>
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="main-artwork main-contact">
+      <div class="main__contact_container">
+        <div class="contact__mark">
+          <img class="conatct__mark__img" src="image/main/stamp-small.png" />
+        </div>
+        <div class="contact__info">
+          <div class="contact__info-name">畵伯&nbsp;&nbsp;조춘자</div>
+          <div class="contact__info-email">choeunsum3@gmail.com</div>
+          <div class="contact__info-kakao">kakaoTalk:&nbsp;&nbsp;choeunsum</div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

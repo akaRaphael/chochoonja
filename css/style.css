@@ -17,6 +17,7 @@
 /* @import "screen/fairytale.css"; */
 @import "screen/introduction.css";
 @import "screen/review.css";
+@import "screen/contact.css";
 
 html {
   width: 100%;
