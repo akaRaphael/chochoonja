@@ -20,7 +20,7 @@
   margin-top: 2vw;
 }
 .profile_container__bottom {
-  margin-bottom: 15vw;
+  margin-bottom: 30vh;
 }
 .profile_container__top__left,
 .profile_container__top__right {
@@ -69,7 +69,7 @@
 .profile__award_title {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 60%;
   padding-bottom: 0.6vw;
   margin-bottom: 1vw;
@@ -86,7 +86,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .individual_history__ul,
@@ -96,13 +96,99 @@
   justify-content: flex-start;
   align-items: center;
   line-height: 3vh;
-  width: 100%;
+  width: 80%;
   font-size: 0.6vw;
 }
+.individual_history__ul > li:last-child,
+.group_history__ul > li:last-child,
+.award_history__ul > li:last-child {
+  width: 80%;
+}
+
 .individual_history__li_year,
 .group_history__li_year,
 .award_history__li_year {
   width: 20%;
   text-align: end;
   margin-right: 1vw;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+  .profile_container__top {
+    align-items: center;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+  }
+  .profile_container__top__left {
+    width: 50%;
+  }
+  .profile_container__top__right {
+    width: 40%;
+    margin-left: 4vw;
+    padding-left: 0vw;
+  }
+
+  .profile__name,
+  .profile__current {
+    width: 100%;
+    height: 30%;
+    font-size: 2.5vw;
+  }
+
+  .profile__current {
+    font-size: 1.7vw;
+    width: 75%;
+    line-height: 3vw;
+  }
+
+  .profile_photo {
+    width: 100%;
+  }
+  .profile_container__bottom {
+    width: 100%;
+  }
+  .profile_container__bottom__left,
+  .profile_container__bottom__mid,
+  .profile_container__bottom__right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .profile__individual_title,
+  .profile__group_title,
+  .profile__award_title {
+    width: 60%;
+    padding-bottom: 1.5vw;
+    margin-bottom: 2vw;
+    font-size: 1.8vw;
+  }
+
+  .profile__individual_history,
+  .profile__group_history,
+  .profile__award_history {
+    width: 100%;
+  }
+
+  .individual_history__ul,
+  .group_history__ul,
+  .award_history__ul {
+    width: 100%;
+  }
+
+  .individual_history__ul > li:last-child,
+  .group_history__ul > li:last-child,
+  .award_history__ul > li:last-child {
+    width: 70%;
+    font-size: 1.2vw;
+  }
+  .individual_history__li_year,
+  .group_history__li_year,
+  .award_history__li_year {
+    width: 23%;
+    margin-right: 1vw;
+    font-size: 1vw;
+  }
 }

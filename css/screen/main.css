@@ -52,13 +52,6 @@
   width: 8.35vw;
 }
 
-.main__quick-fairytale img {
-  width: 22vw;
-}
-.main__quick-buddhism img {
-  width: 12vw;
-}
-
 .main__quick-70s {
   position: absolute;
   left: 30.3vw;
@@ -98,3 +91,59 @@
   top: 14vw;
   left: 62vw; 
 }*/
+
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+  .main--sample-box {
+    height: 60%;
+    padding-top: 20%;
+  }
+
+  .main__quick-70s img {
+    width: 35vw;
+  }
+  .main__quick-90s img {
+    width: 32vw;
+  }
+  .main__quick-2006 img {
+    width: 25vw;
+  }
+  .main__quick-2010 img {
+    width: 36vw;
+  }
+  .main__quick-current img {
+    width: 18vw;
+  }
+
+  .main__quick-buddhism img {
+    width: 12vw;
+  }
+
+  .main__quick-70s {
+    position: absolute;
+    left: 20vw;
+  }
+
+  .main__quick-90s {
+    position: absolute;
+    top: 48vw;
+    left: 7vw;
+  }
+
+  .main__quick-2006 {
+    position: absolute;
+    top: 15.5vw;
+    left: 56vw;
+  }
+
+  .main__quick-2010 {
+    position: absolute;
+    top: 48vw;
+    left: 59vw;
+  }
+
+  .main__quick-current {
+    position: absolute;
+    top: 48vw;
+    left: 40vw;
+  }
+}
