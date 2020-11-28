@@ -33,7 +33,7 @@
   top: -10vh;
   letter-spacing: 1.5vh;
   font-size: 4vw;
-  font-family: "KoPub Batang", serif;
+  font-family: "kopubLight";
   text-align: left;
   color: rgba(0, 0, 0, 0.8);
 }
@@ -48,7 +48,7 @@
   display: flex;
   justify-content: center;
   margin-top: 5vh;
-  font-family: "KoPub Batang", serif;
+  font-family: "kopubLight";
 }
 .language__korean,
 .language__english {

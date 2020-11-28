@@ -22,7 +22,17 @@
 
 @font-face {
   font-family: "JejuMyeongjo";
-  src: url("../font/JejuMyeongjo.ttf");
+  src: url("/chochoonja/font/JejuMyeongjo.ttf");
+}
+
+@font-face {
+  font-family: "kopubMedium";
+  src: url("/chochoonja/font/KoPubWorld\ Batang_Pro\ Medium.otf");
+}
+
+@font-face {
+  font-family: "kopubLight";
+  src: url("/chochoonja/font/KoPubWorld\ Batang_Pro\ Light.otf");
 }
 
 @font-face {
@@ -32,8 +42,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
-@import url("//fonts.googleapis.com/earlyaccess/kopubbatang.css");
 
 html {
   width: 100%;

@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: flex-start;
   font-size: 3vw;
-  font-family: "MapoFlowerIsland";
+  font-family: "MapoFlowerIsland", serif;
   /* font-family: "Noto Serif KR", serif; */
 }
 
@@ -48,7 +48,7 @@
   width: 50%;
   height: 100%;
   font-size: 0.8vw;
-  font-family: "KoPub Batang", serif;
+  font-family: "kopubLight";
 }
 
 .menu__introduction,
