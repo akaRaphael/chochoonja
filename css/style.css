@@ -1,5 +1,7 @@
 @import "reset.css";
-@import "font.css"; /*Components*/
+
+/*fonts*/
+/*Components*/
 @import "components/main-header.css";
 @import "components/sidebar.css";
 @import "components/modal.css";
@@ -17,6 +19,21 @@
 @import "screen/introduction.css";
 @import "screen/review.css";
 @import "screen/contact.css";
+
+@font-face {
+  font-family: "JejuMyeongjo";
+  src: url("../font/JejuMyeongjo.ttf");
+}
+
+@font-face {
+  font-family: "MapoFlowerIsland";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("//fonts.googleapis.com/earlyaccess/kopubbatang.css");
 
 html {
   width: 100%;
