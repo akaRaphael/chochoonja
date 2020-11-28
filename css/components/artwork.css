@@ -2,7 +2,8 @@
   height: 80%;
   display: flex;
   justify-content: flex-start;
-  font-family: "Noto Serif KR", serif;
+  /* font-family: "Noto Serif KR", serif; */
+  font-family: "KoPub Batang", serif;
 }
 
 .main-artwork__content {

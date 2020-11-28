@@ -127,8 +127,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-@font-face {
-  font-family: "Jeju Myeongjo", serif;
-  src: url("/JejuMyeongjo.ttf");
-}

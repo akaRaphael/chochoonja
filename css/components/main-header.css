@@ -23,7 +23,8 @@
   justify-content: center;
   align-items: flex-start;
   font-size: 3vw;
-  font-family: "Noto Serif KR", serif;
+  font-family: "MapoFlowerIsland";
+  /* font-family: "Noto Serif KR", serif; */
 }
 
 .main-header__title > span:last-child {
@@ -47,12 +48,7 @@
   width: 50%;
   height: 100%;
   font-size: 0.8vw;
-  font-family: "Noto Serif KR", serif;
-}
-
-.works-box__list a {
-  text-decoration: none;
-  color: black;
+  font-family: "KoPub Batang", serif;
 }
 
 .menu__introduction,
@@ -73,12 +69,18 @@
 .works-box__list {
   position: absolute;
   width: max-content;
+  text-align: center;
+  top: 50%;
   left: -100%;
   padding-top: 1vw;
   line-height: 2.2vw;
   opacity: 0;
-  visibility: hidden;
   z-index: 1;
+}
+
+.works-box__list a {
+  text-decoration: none;
+  color: black;
 }
 
 /* .works-box__list > ul,

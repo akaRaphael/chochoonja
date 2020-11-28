@@ -32,9 +32,10 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  font-size: 0.7vw;
+  font-size: 0.8vw;
 }
 
 .contact__info-name {
   font-size: 1.2vw;
+  font-family: "KoPub Batang", serif;
 }

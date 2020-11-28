@@ -1,6 +1,5 @@
 @import "reset.css";
-
-/*Components*/
+@import "font.css"; /*Components*/
 @import "components/main-header.css";
 @import "components/sidebar.css";
 @import "components/modal.css";

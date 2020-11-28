@@ -33,21 +33,22 @@
   top: -10vh;
   letter-spacing: 1.5vh;
   font-size: 4vw;
-  font-family: "Jeju Myeongjo", serif;
+  font-family: "KoPub Batang", serif;
   text-align: left;
   color: rgba(0, 0, 0, 0.8);
 }
+
 .chinese {
   font-size: 2vw;
   line-height: 20vh;
-  font-family: "Jeju Myeongjo", serif;
+  font-family: serif;
   text-align: right;
 }
 .language {
   display: flex;
   justify-content: center;
   margin-top: 5vh;
-  font-family: "Noto Serif KR", serif;
+  font-family: "KoPub Batang", serif;
 }
 .language__korean,
 .language__english {
