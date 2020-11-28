@@ -113,7 +113,7 @@
   margin-right: 1vw;
 }
 
-@media screen and (max-width: 1024px) and (max-height: 1366px) {
+@media screen and (width: 1024px) and (height: 1366px) {
   .profile_container__top {
     align-items: center;
     margin-top: 5vw;
