@@ -33,6 +33,7 @@
   justify-content: space-evenly;
   align-items: flex-start;
   font-size: 0.8vw;
+  font-family: "kopubLight";
 }
 
 .contact__info-name {
