@@ -14,10 +14,10 @@
     <div class="modal_container">
       <div class="modal__image_container">
         <div class="modal_header">
-          <div class="modal_close_btn">❌</div>
+          <div class="modal_close_btn"><i class="far fa-window-close"></i></div>
         </div>
         <span class="modal_info">
-          * 스크롤을 이용하여 그림을 확대할 수 있습니다.
+          * 그림 위에서 스크롤하면 확대/축소할 수 있습니다.
         </span>
         <img class="modal__image" location="" />
       </div>
@@ -68,14 +68,26 @@
             >연도별 대표작</span
           >
           <ul class="chronograph__ul">
-            <li><a href="1970.html">1970 - 1990</a></li>
-            <li><a id="clicked_menu" href="1990.html">1990 - 2005</a></li>
-            <li><a href="2006.html">2006 - 2009</a></li>
-            <li><a href="2010.html">2010 - 2011</a></li>
-            <li><a href="2012.html">2012 - 2020</a></li>
+            <li>
+              <a class="chronograph__1970" href="1970.html">1970 - 1990</a>
+            </li>
+            <li>
+              <a class="chronograph__1990" id="clicked_menu" href="1990.html"
+                >1990 - 2005</a
+              >
+            </li>
+            <li>
+              <a class="chronograph__2006" href="2006.html">2006 - 2009</a>
+            </li>
+            <li>
+              <a class="chronograph__2010" href="2010.html">2010 - 2011</a>
+            </li>
+            <li>
+              <a class="chronograph__2012" href="2012.html">2012 - 2020</a>
+            </li>
           </ul>
           <span class="sidebar-container__buddihsm sidebar-title">
-            <a href="buddhism.html">수월관음도</a>
+            <a class="chronograph__buddhism" href="buddhism.html">수월관음도</a>
           </span>
           <!-- <span class="sidebar-container__fairytale sidebar-title">
             <a href="fairytale.html">질라래비</a>
@@ -224,5 +236,9 @@
       </div>
     </main>
     <script src="modal.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

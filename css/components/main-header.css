@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: flex-start;
   font-size: 3vw;
-  font-family: "MapoFlowerIsland", serif;
+  font-family: 'MapoFlowerIsland', serif;
   /* font-family: "Noto Serif KR", serif; */
 }
 
@@ -48,7 +48,7 @@
   width: 50%;
   height: 100%;
   font-size: 0.8vw;
-  font-family: "kopubLight";
+  font-family: 'kopubLight';
 }
 
 .menu__introduction,
@@ -96,10 +96,31 @@
   cursor: pointer;
 }
 
+.menu__introduction:hover,
+.menu__works-box:hover,
+.menu__review:hover,
+.menu__contact:hover {
+  color: black;
+}
+
+.chronograph__1970:hover,
+.chronograph__1990:hover,
+.chronograph__2006:hover,
+.chronograph__2010:hover,
+.chronograph__2012:hover,
+.chronograph__buddhism:hover {
+  color: black;
+}
+
+.modal_close_btn {
+  color: coral;
+}
+
 @media screen and (width: 1024px) and (height: 1366px) {
   .main-header__stamp {
     width: 7vw;
   }
+
   .main-header__title > span {
     font-size: 5vw;
   }
