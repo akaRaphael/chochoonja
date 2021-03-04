@@ -13,22 +13,23 @@ const modal__image_container = document.querySelector(
 let scale = 1;
 
 function modalOpen(event) {
+  
   switch (art_page) {
     case 'art_buddhism':
-      modal_img.style.width = '30vw';
+      modal_img.style.width = '30%';
       break;
-
+      
     default:
       modal_img.style.width = 'auto';
-      modal_img.style.height = '40vw';
+      modal_img.style.height = '30%';
       break;
-  }
-
+    }
+    
   const target = event.target.getAttribute('modal');
+  const scrollLength = modal_container.scrollHeight * 0.2;
   if (target) {
     modal_img.setAttribute('src', target);
     modal_container.style.visibility = 'visible';
-    const scrollLength = modal_container.scrollHeight * 0.2;
     modal_container.scrollTo(0, `${scrollLength}`);
   }
 }
@@ -51,7 +52,7 @@ function zoom(event) {
 
   scale += event.deltaY * -0.001;
   // Restrict scale
-  scale = Math.min(Math.max(1, scale), 2);
+  scale = Math.min(Math.max(1, scale), 3);
   // Apply scale transform
   modal_img.style.transform = `scale(${scale})`;
 }

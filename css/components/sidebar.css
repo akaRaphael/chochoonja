@@ -55,6 +55,24 @@
   color: rgba(0, 0, 0, 0.4);
 }
 
-.sidebar-container__fairytale a {
-  color: rgba(0, 0, 0, 0.4);
+
+/* iPad Pro*/
+@media screen and (width: 1024px) and (height: 1366px) {
+  
+  .main-artwork__sidebar {
+    width: 15%;
+  }
+
+  .sidebar-title {
+    font-size: 1.5vw;
+  }
+
+  .chronograph__ul {
+    margin-top: 2vw;
+  }
+
+  .chronograph__ul li {
+    font-size: 1.5vw;
+  }
+  
 }

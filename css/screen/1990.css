@@ -10,3 +10,19 @@
 .artwork_1990_woman8 {
   width: 75%;
 }
+
+@media screen and (width: 1024px) and (height: 1366px) {
+  .artwork_1990_rocke {
+    width: 60%;
+  }
+  
+  .artwork_1990_woman3 {
+    width: 50%;
+  }
+  
+  .artwork_1990_woman4,
+  .artwork_1990_woman8 {
+    width: 60%;
+  }
+
+}

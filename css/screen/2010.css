@@ -13,3 +13,21 @@
 .artwork_2010_woman13 {
   width: 45%;
 }
+
+@media screen and (width: 1024px) and (height: 1366px) {
+  .artwork_2010_minkyung,
+.artwork_2010_woman9 {
+  width: 55%;
+}
+
+.artwork_2010_woman5,
+.artwork_2010_woman6,
+.artwork_2010_woman7,
+.artwork_2010_woman10 {
+  width: 55%;
+}
+
+.artwork_2010_woman13 {
+  width: 40%;
+}
+}

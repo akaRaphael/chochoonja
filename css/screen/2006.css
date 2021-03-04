@@ -9,3 +9,19 @@
 .artwork_2006_woman11 {
   width: 85%;
 }
+
+@media screen and (width: 1024px) and (height: 1366px) {
+
+  .artwork_2006_woman4 {
+    width: 45%;
+  }
+  
+  .artwork_2006_woman9 {
+    width: 55%;
+  }
+  
+  .artwork_2006_woman11 {
+    width: 85%;
+  }
+
+}

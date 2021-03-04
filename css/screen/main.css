@@ -80,18 +80,7 @@
   left: 40vw;
 }
 
-/* .main__quick-fairytale {
-  position: absolute;
-  top: 20.7vw;
-  left: 39vw;
-}
-
-.main__quick-buddhism {
-  position: absolute;
-  top: 14vw;
-  left: 62vw; 
-}*/
-
+/* iPad Pro*/
 @media screen and (width: 1024px) and (height: 1366px) {
   .main--sample-box {
     height: 60%;

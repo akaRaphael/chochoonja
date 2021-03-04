@@ -40,3 +40,10 @@
   width: 100%;
   height: auto;
 }
+
+/* iPad Pro*/
+@media screen and (width: 1024px) and (height: 1366px) {
+  .modal_info{
+    font-size: 2vw;
+  }
+}

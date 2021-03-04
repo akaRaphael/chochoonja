@@ -81,3 +81,40 @@
   height: 3vw;
   font-size: 0.8vw;
 }
+
+@media screen and (width: 1024px) and (height: 1366px) {
+
+  .main__review_container{
+    width: 100%;
+  }
+  .review_container__title {
+    font-size: 2.3vw;
+    line-height: 3vw;
+  }
+  
+  .review_container__author {
+    font-size: 1.5vw;
+  }
+  
+  .review_container__content {
+    padding: 2vw 2vw;
+    text-align: justify;
+    font-size: 1.5vw;
+    height: 2vw;
+    overflow: hidden;
+  }
+  
+  .review_container__content > p {
+    margin-bottom: 10%;
+    line-height: 2vw;
+  }
+  
+  .review_container__content > h1 {
+    font-size: 2vw;
+    margin-bottom: 5%;
+  }
+  
+  .review_container__more {
+    font-size: 1.4vw;
+  }
+}

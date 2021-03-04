@@ -115,6 +115,7 @@
   margin-right: 1vw;
 }
 
+/* iPad Pro*/
 @media screen and (width: 1024px) and (height: 1366px) {
 
   .profile__individual_history,
@@ -130,5 +131,12 @@
     line-height: 30px;
     font-size: 1vw;
     padding-left: 10%;
+  }
+
+  .profile__name {
+    font-size: 2vw;
+  }
+  .profile__current {
+    font-size: 1.4vw;
   }
 }
