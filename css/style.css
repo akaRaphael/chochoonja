@@ -22,17 +22,17 @@
 
 @font-face {
   font-family: "JejuMyeongjo";
-  src: url("/chochoonja/font/JejuMyeongjo.ttf");
+  src: url("../font/JejuMyeongjo.ttf");
 }
 
 @font-face {
   font-family: "kopubMedium";
-  src: url("/chochoonja/font/KoPubMedium.otf");
+  src: url("../font/KoPubMedium.otf");
 }
 
 @font-face {
   font-family: "kopubLight";
-  src: url("/chochoonja/font/KoPubLight.otf");
+  src: url("../font/KoPubLight.otf");
 }
 
 @font-face {
