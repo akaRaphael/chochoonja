@@ -85,14 +85,16 @@
 
   .sidebar-title {
     font-size: 1.5vw;
+    margin: 5vw 0vw;
   }
 
   .chronograph__ul {
-    margin-top: 2vw;
+    margin-top: 0vw;
   }
 
   .chronograph__ul li {
-    font-size: 1.5vw;
+    font-size: 2vw;
+    margin-top: 5vw;
   }
   
 }

@@ -136,7 +136,6 @@
 
   .profile__individual_history{
     padding-left: 0%;
-
   }
 
   .individual_history__ul,
@@ -214,6 +213,74 @@
   .group_history__li_year,
   .award_history__li_year {
     width: 40%;
+  }
+  
+  .individual_history__li_year{
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+
+  .profile_container__top {
+    align-items: center;
+    margin: 5% 0%;
+  }
+
+  .profile_container__bottom {
+    flex-direction: column;
+    align-items: center;
+    height: auto;    
+  }
+
+  .profile_container__bottom__left,
+  .profile_container__bottom__mid,
+  .profile_container__bottom__right {
+    width: 70%;
+  }
+  .profile_container__top__left{
+    width: 70%;
+  }
+  .profile__name {
+    font-size: 3.1vw;
+    margin-bottom: 2vw;
+  }
+  .profile__current {
+    font-size: 1.7vw;
+    line-height: 3vw;
+  }
+  .profile__individual_title,
+  .profile__group_title,
+  .profile__award_title {
+    font-size: 3.3vw;
+  }
+  
+  .profile__individual_history,
+  .profile__group_history,
+  .profile__award_history {
+    width: 100%;
+    padding-left: 0%;
+    margin-bottom: 10vw;
+  }
+  
+  .individual_history__ul,
+  .group_history__ul,
+  .award_history__ul {
+    width: 100%;
+    line-height: 20px;
+  }
+  
+  
+  .individual_history__ul > li:last-child,
+  .group_history__ul > li:last-child,
+  .award_history__ul > li:last-child {
+    width: 70%;
+    font-size: 1px;
+  }
+  
+  .group_history__li_year,
+  .award_history__li_year {
+    width: 25%;
   }
   
   .individual_history__li_year{

@@ -93,12 +93,12 @@
 
 @media screen and (max-width: 450px) {
   .main-contact {
-    height: 50%;
+    height: 40%;
   }
   .main__contact_container {
     width: 65%;
     height: 45%;
-    box-shadow: 2vw 2vw 1vw 0.2vw rgba(0, 0, 0, 0.4);
+    box-shadow: 2vw 2vw 2vw 0.2vw rgba(0, 0, 0, 0.4);
   }
   .contact__info-name {
     font-size: 4vw;
