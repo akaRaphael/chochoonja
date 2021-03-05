@@ -27,12 +27,12 @@
 
 @font-face {
   font-family: "kopubMedium";
-  src: url("/font/KoPubWorld\ Batang_Pro\ Medium.otf");
+  src: url("/font/KoPubMedium.otf");
 }
 
 @font-face {
   font-family: "kopubLight";
-  src: url("/font/KoPubWorld\ Batang_Pro\ Light.otf");
+  src: url("/font/KoPubLight.otf");
 }
 
 @font-face {
