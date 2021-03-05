@@ -81,7 +81,63 @@
 }
 
 /* iPad Pro*/
-@media screen and (width: 1024px) and (height: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .main--sample-box {
+    height: 60%;
+    padding-top: 20%;
+  }
+
+  .main__quick-70s img {
+    width: 35vw;
+  }
+  .main__quick-90s img {
+    width: 32vw;
+  }
+  .main__quick-2006 img {
+    width: 25vw;
+  }
+  .main__quick-2010 img {
+    width: 36vw;
+  }
+  .main__quick-current img {
+    width: 18vw;
+  }
+
+  .main__quick-buddhism img {
+    width: 12vw;
+  }
+
+  .main__quick-70s {
+    position: absolute;
+    left: 20vw;
+  }
+
+  .main__quick-90s {
+    position: absolute;
+    top: 48vw;
+    left: 7vw;
+  }
+
+  .main__quick-2006 {
+    position: absolute;
+    top: 15.5vw;
+    left: 56vw;
+  }
+
+  .main__quick-2010 {
+    position: absolute;
+    top: 48vw;
+    left: 59vw;
+  }
+
+  .main__quick-current {
+    position: absolute;
+    top: 48vw;
+    left: 40vw;
+  }
+}
+
+@media screen and (max-width: 1000px){
   .main--sample-box {
     height: 60%;
     padding-top: 20%;

@@ -57,10 +57,30 @@
 
 
 /* iPad Pro*/
-@media screen and (width: 1024px) and (height: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
   
   .main-artwork__sidebar {
     width: 15%;
+  }
+
+  .sidebar-title {
+    font-size: 1.5vw;
+  }
+
+  .chronograph__ul {
+    margin-top: 2vw;
+  }
+
+  .chronograph__ul li {
+    font-size: 1.5vw;
+  }
+  
+}
+
+@media screen and (max-width: 1000px){
+  
+  .main-artwork__sidebar {
+    width: 20%;
   }
 
   .sidebar-title {

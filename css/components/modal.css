@@ -5,7 +5,7 @@
   z-index: 1;
   visibility: hidden;
   background-color: rgba(0, 0, 0, 0.9);
-  overflow: auto;
+  overflow: scroll;
 }
 .modal_header {
   width: 90%;
@@ -34,6 +34,7 @@
 .modal_info {
   color: white;
   font-size: 1vw;
+  font-family: kopubMedium;
 }
 
 .modal__image {
@@ -42,8 +43,34 @@
 }
 
 /* iPad Pro*/
-@media screen and (width: 1024px) and (height: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
   .modal_info{
     font-size: 2vw;
   }
+
+  .modal_close_btn {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px){
+  .modal_info{
+    font-size: 2vw;
+  }
+
+  .modal_close_btn {
+    font-size: 5vw;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+  .modal_info{
+    font-size: 4vw;
+  }
+
+  .modal_close_btn {
+    font-size: 7vw;
+  }
+
 }

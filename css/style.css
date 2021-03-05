@@ -22,17 +22,17 @@
 
 @font-face {
   font-family: "JejuMyeongjo";
-  src: url("/chochoonja/font/JejuMyeongjo.ttf");
+  src: url("/font/JejuMyeongjo.ttf");
 }
 
 @font-face {
   font-family: "kopubMedium";
-  src: url("/chochoonja/font/KoPubWorld\ Batang_Pro\ Medium.otf");
+  src: url("/font/KoPubWorld\ Batang_Pro\ Medium.otf");
 }
 
 @font-face {
   font-family: "kopubLight";
-  src: url("/chochoonja/font/KoPubWorld\ Batang_Pro\ Light.otf");
+  src: url("/font/KoPubWorld\ Batang_Pro\ Light.otf");
 }
 
 @font-face {
@@ -54,6 +54,7 @@ body {
   font-weight: 600;
   overflow: hidden;
 }
+
 
 #clicked_menu {
   color: black;
