@@ -15,37 +15,46 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
+  
   .artwork_2010_minkyung,
-.artwork_2010_woman9 {
-  width: 55%;
-}
+  .artwork_2010_woman9,
+  .artwork_2010_woman5,
+  .artwork_2010_woman6,
+  .artwork_2010_woman7,
+  .artwork_2010_woman10 {
+    width: 55%;
+  }
 
-.artwork_2010_woman5,
-.artwork_2010_woman6,
-.artwork_2010_woman7,
-.artwork_2010_woman10 {
-  width: 55%;
-}
+  .artwork_2010_woman12 {
+    width: 65%;
+  }
+  .artwork_2010_woman13 {
+    width: 40%;
+  }
 
-.artwork_2010_woman13 {
-  width: 40%;
-}
+  .artwork_2010_woman4 {
+    width: 85%;
+  }
 }
 
 @media screen and (max-width: 1000px){
   .artwork_2010_minkyung,
-.artwork_2010_woman9 {
-  width: 55%;
-}
+  .artwork_2010_woman9,
+  .artwork_2010_woman5,
+  .artwork_2010_woman6,
+  .artwork_2010_woman7,
+  .artwork_2010_woman10 {
+    width: 55%;
+  }
 
-.artwork_2010_woman5,
-.artwork_2010_woman6,
-.artwork_2010_woman7,
-.artwork_2010_woman10 {
-  width: 55%;
-}
+  .artwork_2010_woman12 {
+    width: 65%;
+  }
+  .artwork_2010_woman13 {
+    width: 40%;
+  }
 
-.artwork_2010_woman13 {
-  width: 40%;
-}
+  .artwork_2010_woman4 {
+    width: 85%;
+  }
 }

@@ -23,8 +23,8 @@
 
 .sidebar-title {
   height: fit-content;
-  margin: 1vw 0vw;
-  font-size: 0.8vw;
+  margin: 2vw 0vw;
+  font-size: 1.2vw;
   width: max-content;
 }
 
@@ -38,8 +38,8 @@
 }
 
 .chronograph__ul li {
-  margin-bottom: 3vh;
-  font-size: 0.7vw;
+  margin-bottom: 4vh;
+  font-size: 1vw;
   text-align: center;
 }
 .chronograph__ul li a {
@@ -84,7 +84,7 @@
   }
 
   .sidebar-title {
-    font-size: 1.5vw;
+    font-size: 3vw;
     margin: 5vw 0vw;
   }
 
@@ -94,7 +94,7 @@
 
   .chronograph__ul li {
     font-size: 2vw;
-    margin-top: 5vw;
+    margin-top: 2vw;
   }
   
 }

@@ -21,48 +21,55 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .artwork_2012_6,
-.artwork_2012_1 {
-  width: 60%;
-}
+  .artwork_2012_1 {
+    width: 60%;
+  }
 
-.artwork_2012_8 {
-  width: 60%;
-}
+  .artwork_2012_8 {
+    width: 60%;
+  }
 
-.artwork_2012_9 {
-  width: 55%;
-}
+  .artwork_2012_9 {
+    width: 55%;
+  }
 
-.artwork_2012_11 {
-  width: 45%;
-}
+  .artwork_2012_11 {
+    width: 45%;
+  }
+  .artwork_2012_12,
+  .artwork_2012_13 {
+    width: 65%;
+  }
 
-.artwork_2012_16 {
-  width: 60%;
-}
+  .artwork_2012_16 {
+    width: 60%;
+  }
 
 }
 
 @media screen and (max-width: 1000px){
   .artwork_2012_6,
-.artwork_2012_1 {
-  width: 60%;
-}
+  .artwork_2012_1 {
+    width: 60%;
+  }
 
-.artwork_2012_8 {
-  width: 60%;
-}
+  .artwork_2012_8 {
+    width: 60%;
+  }
 
-.artwork_2012_9 {
-  width: 55%;
-}
+  .artwork_2012_9 {
+    width: 55%;
+  }
 
-.artwork_2012_11 {
-  width: 45%;
-}
+  .artwork_2012_11 {
+    width: 45%;
+  }
+  .artwork_2012_12,
+  .artwork_2012_13 {
+    width: 65%;
+  }
 
-.artwork_2012_16 {
-  width: 60%;
-}
-
+  .artwork_2012_16 {
+    width: 60%;
+  }
 }

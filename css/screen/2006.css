@@ -12,8 +12,16 @@
 
 @media screen and (min-width: 751px) and (max-width: 1200px) {
 
+  .artwork_2006_woman1 {
+    width: 65%;
+  }
+
   .artwork_2006_woman4 {
     width: 45%;
+  }
+
+  .artwork_2006_woman7 {
+    width: 65%;
   }
   
   .artwork_2006_woman9 {
@@ -24,6 +32,10 @@
     width: 85%;
   }
 
+  .artwork_2006_minkyung {
+    width: 65%;
+  }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -31,10 +43,19 @@
   .artwork_2006_woman4 {
     width: 45%;
   }
+
+  .artwork_2006_woman1,
+  .artwork_2006_woman5,
+  .artwork_2006_woman7,
+  .artwork_2006_woman10,
+  .artwork_2006_minkyung  {
+    width: 65%;
+  }
   
   .artwork_2006_woman9 {
     width: 55%;
   }
+
   
   .artwork_2006_woman11 {
     width: 85%;

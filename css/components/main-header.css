@@ -99,7 +99,7 @@
   color: coral;
 }
 
-@media screen and (min-width: 700px) and (max-width: 1200px) {
+@media screen and (min-width: 701px) and (max-width: 1200px) {
   .main-header__stamp {
     width: 7vw;
   }
@@ -120,6 +120,13 @@
   }
 
   .menubox__menu {
+    width: 80%;
+  }
+
+  .menu__introduction,
+  .menu__works-box,
+  .menu__review,
+  .menu__contact {
     font-size: 2vw;
     width: 100%;
   }
@@ -129,7 +136,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
   .main-header__box {
     margin-bottom: 2vw;

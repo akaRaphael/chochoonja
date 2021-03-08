@@ -26,10 +26,23 @@
     width: 60%;
   }
 
+  .artwork_1990_woman6 {
+    width: 65%;
+  }
+
 }
 
 /* smartphone */
 @media screen and (max-width: 750px){
+
+  .artwork_1970_rose {
+    width: 65%;
+  }
+
+  .artwork_1970_autumn {
+    width: 70%;
+  }
+
   .artwork_1990_rocke {
     width: 60%;
   }
@@ -41,6 +54,10 @@
   .artwork_1990_woman4,
   .artwork_1990_woman8 {
     width: 60%;
+  }
+
+  .artwork_1990_woman6 {
+    width: 65%;
   }
 
 }
