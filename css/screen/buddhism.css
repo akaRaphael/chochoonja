@@ -109,7 +109,11 @@
   }
   
   .buddhism__info__title__eng {
-    font-size: 1vw;
+    font-size: 2vw;
+  }
+
+  .buddhism__info_details {
+    font-size: 50%;
   }
 
   .buddhism__etc__copyright,
