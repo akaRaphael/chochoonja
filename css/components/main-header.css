@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 .main-header__box {
   display: flex;
@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: flex-start;
   font-size: 3vw;
-  font-family: 'MapoFlowerIsland', serif;
+  font-family: kopubMedium;
 }
 
 .main-header__title > span:last-child {
@@ -62,7 +62,6 @@
   cursor: pointer;
   color: rgba(0, 0, 0, 0.4);
   font-size: 1.1vw;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .menu__works-box {
@@ -100,7 +99,7 @@
   color: coral;
 }
 
-/* @media screen and (min-width: 1024px) and (max-width: 1200px) {
+@media screen and (min-width: 700px) and (max-width: 1200px) {
   .main-header__stamp {
     width: 7vw;
   }
@@ -121,14 +120,47 @@
   }
 
   .menubox__menu {
-    font-size: 1.8vw;
+    font-size: 2vw;
     width: 100%;
   }
 
   .works-box__list a {
     visibility: hidden;
   }
-} */
+}
 
-@media screen and (min-width: 700px) and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
+
+  .main-header__box {
+    margin-bottom: 2vw;
+  }
+
+  .main-header__stamp {
+    width: 10%;
+  }
+
+  .main-header__title {
+    font-size: 5.5vw;
+  }
+
+  .main-header__title > span:last-child {
+    padding-top: 2vw;
+    font-size: 3.3vw;
+  }
+
+  .main-header__menubox {
+    height: 20%;
+  }
+
+  .menubox__menu {
+    width: 85%;
+  }
+
+  .menu__introduction,
+  .menu__works-box,
+  .menu__review,
+  .menu__contact {
+    font-size: 3.5vw;
+    width: 100%;
+  }
 }
