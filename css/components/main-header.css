@@ -178,18 +178,31 @@
   }
 
   .main-header__title > span {
-    font-size: 6vw;
+    font-size: 7vw;
   }
 
   .main-header__title > span:last-child {
     padding-top: 2vw;
     font-size: 3.5vw;
   }
+
+
+  .main-header__menubox {
+    height: 20%;
+  }
+  
   .menubox__menu {
     width: 100%;
   }
 
   .works-box__list a {
     visibility: hidden;
+  }
+
+  .menu__introduction,
+  .menu__works-box,
+  .menu__review,
+  .menu__contact {
+    font-size: 3vw;
   }
 }
