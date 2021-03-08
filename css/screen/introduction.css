@@ -225,6 +225,11 @@
   .profile_container__top {
     align-items: center;
     margin: 5% 0%;
+    flex-direction: column;
+  }
+
+  .profile_photo{
+    width: 90%;
   }
 
   .profile_container__bottom {
@@ -239,27 +244,35 @@
     width: 70%;
   }
   .profile_container__top__left{
-    width: 70%;
+    width: 100%;
+  }
+
+  .profile_container__top__right {
+    width: 100%;
   }
   .profile__name {
-    font-size: 3.1vw;
-    margin-bottom: 2vw;
+    width: 100%;
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 5vw;
   }
   .profile__current {
-    font-size: 1.7vw;
-    line-height: 3vw;
+    text-align: center;
+    font-size: 3.2vw;
   }
   .profile__individual_title,
   .profile__group_title,
   .profile__award_title {
-    font-size: 3.3vw;
+    font-size: 5vw;
+    width: 100%;
   }
   
   .profile__individual_history,
   .profile__group_history,
   .profile__award_history {
-    width: 100%;
+    width: 100vw;
     padding-left: 0%;
+    margin: 0%;
     margin-bottom: 10vw;
   }
   
@@ -269,13 +282,17 @@
     width: 100%;
     line-height: 20px;
   }
+  .individual_history__ul,
+  .award_history__ul {
+    padding-left: 20%;
+  }
   
   
   .individual_history__ul > li:last-child,
   .group_history__ul > li:last-child,
   .award_history__ul > li:last-child {
-    width: 70%;
-    font-size: 1px;
+    width: 100%;
+    font-size: 3.2vw;
   }
   
   .group_history__li_year,
