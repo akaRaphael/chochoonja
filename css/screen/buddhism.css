@@ -103,9 +103,18 @@
     padding-left: 0%;
   }
 
+  .buddhism__info__title__kor {
+    font-size: 3vw;
+    margin-bottom: 1vw;
+  }
+  
+  .buddhism__info__title__eng {
+    font-size: 1vw;
+  }
+
   .buddhism__etc__copyright,
   .buddhism__etc__enlarge {
-    font-size: 10px;
+    font-size: 50%;
   }
 
 }
