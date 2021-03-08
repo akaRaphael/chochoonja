@@ -16,7 +16,7 @@ function modalOpen(event) {
   
   switch (art_page) {
     case 'art_buddhism':
-      modal_img.style.width = '30%';
+      modal_img.style.width = '45%';
       break;
       
     default:

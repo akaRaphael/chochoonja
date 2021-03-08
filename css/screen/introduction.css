@@ -116,7 +116,7 @@
 }
 
 /* iPad Pro*/
-@media screen and (min-width: 750px) and (max-width: 1200px)  {
+@media screen and (min-width: 701px) and (max-width: 1200px)  {
 
   .profile_container__top__left{
     width: 70%;
@@ -167,7 +167,7 @@
     width: 25%;
   }
 }
-
+/* 
 @media screen and (min-width: 500px) and (max-width: 700px) {
 
   .profile_container__top__left{
@@ -218,9 +218,9 @@
   .individual_history__li_year{
     width: 20%;
   }
-}
+} */
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 700px) {
 
   .profile_container__top {
     align-items: center;
