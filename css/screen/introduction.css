@@ -167,58 +167,6 @@
     width: 25%;
   }
 }
-/* 
-@media screen and (min-width: 500px) and (max-width: 700px) {
-
-  .profile_container__top__left{
-    width: 70%;
-  }
-  .profile__name {
-    font-size: 3vw;
-    margin-bottom: 1vw;
-  }
-  .profile__current {
-    font-size: 2vw;
-    line-height: 3vw;
-  }
-  .profile__individual_title,
-  .profile__group_title,
-  .profile__award_title {
-    font-size: 2.5vw;
-  }
-
-  .profile__individual_history,
-  .profile__group_history,
-  .profile__award_history {
-    width: 100%;
-    padding: 0%;
-  }
-  
-
-  .individual_history__ul,
-  .group_history__ul,
-  .award_history__ul {
-    width: 100%;
-    line-height: 20px;
-  }
-  
-  
-  .individual_history__ul > li:last-child,
-  .group_history__ul > li:last-child,
-  .award_history__ul > li:last-child {
-    width: 60%;
-    font-size: 1px;
-  }
-  
-  .group_history__li_year,
-  .award_history__li_year {
-    width: 40%;
-  }
-  
-  .individual_history__li_year{
-    width: 20%;
-  }
-} */
 
 @media screen and (max-width: 700px) {
 
@@ -288,7 +236,7 @@
   .individual_history__ul > li:last-child,
   .group_history__ul > li:last-child,
   .award_history__ul > li:last-child {
-    font-size: 3.2vw;
+    font-size: 3vw;
   }
   
   .group_history__li_year,
