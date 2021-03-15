@@ -37,9 +37,16 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  font-size: 0.9vw;
   padding-bottom: 0.7vw;
   line-height: 1.5vw;
+  font-size: 1.3vw;
+  display: block;
+  text-align: center;
+}
+
+.review_container__title > * {
+  display: block;
+  font-size: 1.3vw;
 }
 
 .review_container__author {
@@ -48,24 +55,24 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  font-size: 0.7vw;
+  font-size: 1vw;
 }
 
 .review_container__content {
   padding: 2vw 2vw;
   text-align: justify;
-  font-size: 0.65vw;
+  font-size: 1vw;
   height: 2vw;
   overflow: hidden;
 }
 
 .review_container__content > p {
   margin-bottom: 5%;
-  line-height: 1.5vw;
+  line-height: 2vw;
 }
 
 .review_container__content > h1 {
-  font-size: 0.9vw;
+  font-size: 1.2vw;
   margin-bottom: 1.5%;
   font-weight: bold;
 }
@@ -79,7 +86,7 @@
   border: 1px solid black;
   width: 20%;
   height: 3vw;
-  font-size: 0.8vw;
+  font-size: 1vw;
 }
 
 @media screen and (min-width: 751px) and (max-width: 1200px) {
@@ -88,19 +95,23 @@
     width: 100%;
   }
   .review_container__title {
-    font-size: 3vw;
-    line-height: 4vw;
+    line-height: 2vw;
+    font-size: 1.5vw;
+  }
+
+  .review_container__title > span{
+    font-size: 1.5vw;
   }
   
   .review_container__author {
     width: 100%;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
   
   .review_container__content {
     padding: 2vw 2vw;
     text-align: justify;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     height: 2vw;
     overflow: hidden;
   }
@@ -128,32 +139,39 @@
   .review_container__title {
     font-size: 3vw;
     line-height: 4vw;
+    margin-bottom: 3vw;
+  }
+  .review_container__title > span{
+    font-size: 3vw;
   }
   
   .review_container__author {
     width: 100%;
-    font-size: 1vw;
+    font-size: 2.5vw;
   }
   
   .review_container__content {
     padding: 2vw 2vw;
     text-align: justify;
-    font-size: 3vw;
+    font-size: 2vw;
     height: 2vw;
     overflow: hidden;
+    margin-bottom: 5vw;
   }
   
   .review_container__content > p {
     margin-bottom: 10%;
-    line-height: 5vw;
+    line-height: 4vw;
   }
   
   .review_container__content > h1 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin-bottom: 5%;
   }
   
   .review_container__more {
-    font-size: 1.4vw;
+    font-size: 3.5vw;
+    width: 20vw;
+    height: 10vw;
   }
 }

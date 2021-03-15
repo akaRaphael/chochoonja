@@ -64,6 +64,15 @@
   font-size: 1.1vw;
 }
 
+.menu__introduction > span,
+.menu__works-box > span,
+.menu__review > span,
+.menu__contact > span  {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
 .menu__works-box {
   position: relative;
 }
@@ -131,14 +140,6 @@
     width: 100%;
   }
 
-  .menu__introduction > span,
-  .menu__works-box > span,
-  .menu__review > span,
-  .menu__contact > span  {
-    width: 100%;
-    text-align: center;
-  }
-
   .works-box__list a {
     visibility: hidden;
   }
@@ -169,7 +170,7 @@
   }
 
   .main-header__menubox {
-    height: 20%;
+    height: 5vw;
   }
 
   
@@ -181,7 +182,7 @@
   .menu__works-box,
   .menu__review,
   .menu__contact {
-    font-size: 3.2vw;
+    font-size: 3vw;
     width: 100%;
   }
 }
