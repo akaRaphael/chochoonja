@@ -131,6 +131,14 @@
     width: 100%;
   }
 
+  .menu__introduction > span,
+  .menu__works-box > span,
+  .menu__review > span,
+  .menu__contact > span  {
+    width: 100%;
+    text-align: center;
+  }
+
   .works-box__list a {
     visibility: hidden;
   }
@@ -147,7 +155,8 @@
   }
   
   .main-header__stamp {
-    height: 30%;
+    width: 5vw;
+    height: 50%;
   }
 
   .main-header__title {
@@ -163,6 +172,7 @@
     height: 20%;
   }
 
+  
   .menubox__menu {
     width: 85%;
   }
@@ -171,7 +181,7 @@
   .menu__works-box,
   .menu__review,
   .menu__contact {
-    font-size: 3vw;
+    font-size: 3.2vw;
     width: 100%;
   }
 }
