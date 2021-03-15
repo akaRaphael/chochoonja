@@ -1,6 +1,6 @@
 .main-header {
-  width: 100%;
-  height: 20vh;
+  height: 20%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -8,9 +8,9 @@
   -webkit-tap-highlight-color: transparent;
 }
 .main-header__box {
-  width: 100%;
   display: flex;
   justify-content: flex-start;
+  width: auto;
   cursor: pointer;
 }
 .main-header__stamp {
@@ -35,7 +35,6 @@
 .main-header__menubox {
   width: 100%;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,11 +42,11 @@
   height: 2vw;
 }
 .menubox__menu {
-  width: 60%;
-  height: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 50%;
+  height: 100%;
   font-family: 'kopubLight';
 }
 
@@ -139,12 +138,16 @@
 
 @media screen and (max-width: 700px) {
 
+  .main-header {
+    height: 100%;
+  }
+
   .main-header__box {
     margin-bottom: 2vw;
   }
-
+  
   .main-header__stamp {
-    width: 11vw;
+    width: 10%;
   }
 
   .main-header__title {
@@ -168,7 +171,7 @@
   .menu__works-box,
   .menu__review,
   .menu__contact {
-    font-size: 3.5vw;
+    font-size: 3vw;
     width: 100%;
   }
 }
