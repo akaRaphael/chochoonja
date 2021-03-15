@@ -1,7 +1,6 @@
 .main-contact {
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 
 .main__contact_container {
@@ -101,7 +100,7 @@
     box-shadow: 2vw 2vw 2vw 0.2vw rgba(0, 0, 0, 0.4);
   }
   .contact__info-name {
-    font-size: 3.5vw;
+    font-size: 3.6vw;
     width: 100%;
 
   }
