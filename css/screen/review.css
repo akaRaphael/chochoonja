@@ -38,7 +38,6 @@
   align-items: center;
   width: 100%;
   padding-bottom: 0.7vw;
-  line-height: 1.5vw;
   font-size: 1.3vw;
   display: block;
   text-align: center;
@@ -47,6 +46,7 @@
 .review_container__title > * {
   display: block;
   font-size: 1.3vw;
+  line-height: 2;
 }
 
 .review_container__author {
@@ -68,7 +68,7 @@
 
 .review_container__content > p {
   margin-bottom: 5%;
-  line-height: 2vw;
+  line-height: 2;
 }
 
 .review_container__content > h1 {
@@ -95,30 +95,31 @@
     width: 100%;
   }
   .review_container__title {
-    line-height: 2vw;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
   }
-
+  
   .review_container__title > span{
-    font-size: 1.5vw;
+    font-size: 2.5vw;
+    line-height: 1.5;
   }
   
   .review_container__author {
     width: 100%;
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
   
   .review_container__content {
     padding: 2vw 2vw;
     text-align: justify;
-    font-size: 1.3vw;
     height: 2vw;
     overflow: hidden;
   }
   
   .review_container__content > p {
     margin-bottom: 10%;
-    line-height: 3vw;
+    line-height: 2;
+    font-size: 1.7vw;
   }
   
   .review_container__content > h1 {
@@ -138,7 +139,7 @@
   }
   .review_container__title {
     font-size: 3vw;
-    line-height: 4vw;
+    line-height: 1.5;
     margin-bottom: 3vw;
   }
   .review_container__title > span{
@@ -156,12 +157,12 @@
     font-size: 2vw;
     height: 2vw;
     overflow: hidden;
-    margin-bottom: 5vw;
+    margin-bottom: 2vw;
   }
   
   .review_container__content > p {
     margin-bottom: 10%;
-    line-height: 4vw;
+    line-height: 2;
   }
   
   .review_container__content > h1 {
@@ -170,7 +171,7 @@
   }
   
   .review_container__more {
-    font-size: 3.5vw;
+    font-size: 3vw;
     width: 20vw;
     height: 10vw;
   }

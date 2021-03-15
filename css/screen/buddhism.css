@@ -134,7 +134,7 @@
   
   .buddhism__etc__copyright,
   .buddhism__etc__enlarge {
-    font-size: 100%;
+    font-size: 80%;
   }
 }
 
@@ -159,12 +159,12 @@
   }
 
   .buddhism__info__title__kor {
-    font-size: 2vw;
+    font-size: 3vw;
     margin-bottom: 1vw;
   }
   
   .buddhism__info__title__eng {
-    font-size: 1vw;
+    font-size: 1.5vw;
   }
 
   .buddhism__info_details {

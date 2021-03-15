@@ -67,7 +67,7 @@
 }
 
 .artwork__info_details {
-  line-height: 1.2vw;
+  line-height: 1.7;
   font-size: 0.7vw;
 }
 
@@ -99,7 +99,7 @@
   }
 
   .artwork__info_details {
-    line-height: 2.5vw;
+    line-height: 2;
     font-size: 1.7vw;
   }
 
@@ -141,7 +141,7 @@
   }
 
   .artwork__info_details {
-    line-height: 3vw;
+    line-height: 2;
     font-size: 1.7vw;
   }
 

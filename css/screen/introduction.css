@@ -97,7 +97,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  line-height: 3vh;
+  line-height: 2;
   width: 85%;
   font-size: 0.6vw;
 }
@@ -142,7 +142,7 @@
   .group_history__ul,
   .award_history__ul {
     width: 100%;
-    line-height: 25px;
+    line-height: 2;
     font-size: 1.2vw;
   }
 
@@ -152,7 +152,7 @@
   }
   .profile__current {
     font-size: 1.6vw;
-    line-height: 2vw;
+    line-height: 1.5;
   }
 
   .individual_history__ul > li:last-child,
@@ -228,8 +228,8 @@
   .group_history__ul,
   .award_history__ul {
     width: 90%;
-    line-height: 6vw;
-    font-size: 80%;
+    line-height: 2;
+    font-size: 75%;
   }
   
   
