@@ -38,23 +38,32 @@
 }
 
 @media screen and (max-width: 1000px){
-  .artwork_2010_minkyung,
+  .artwork_2010_minkyung {
+    width: 45%;
+  }
+
+  .artwork_2010_woman2,
+  .artwork_2010_woman3 {
+    width: 60%;
+  }
+  
+  .artwork_2010_woman4 {
+    width: 70%;
+  }
+
   .artwork_2010_woman9,
   .artwork_2010_woman5,
   .artwork_2010_woman6,
   .artwork_2010_woman7,
   .artwork_2010_woman10 {
-    width: 55%;
+    width: 45%;
   }
 
   .artwork_2010_woman12 {
-    width: 65%;
+    width: 55%;
   }
   .artwork_2010_woman13 {
-    width: 40%;
+    width: 30%;
   }
 
-  .artwork_2010_woman4 {
-    width: 85%;
-  }
 }

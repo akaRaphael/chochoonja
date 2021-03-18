@@ -41,21 +41,25 @@
 @media screen and (max-width: 750px) {
 
   .artwork_2006_woman4 {
-    width: 45%;
+    width: 37%;
   }
-
-  .artwork_2006_woman1,
+  
+  .artwork_2006_woman2,
+  .artwork_2006_woman3,
   .artwork_2006_woman5,
   .artwork_2006_woman7,
-  .artwork_2006_woman10,
-  .artwork_2006_minkyung  {
-    width: 65%;
+  .artwork_2006_woman10 {
+    width: 60%;
+  }
+
+  .artwork_2006_woman1, 
+  .artwork_2006_minkyung {
+    width: 55%;
   }
   
   .artwork_2006_woman9 {
-    width: 55%;
+    width: 47%;
   }
-
   
   .artwork_2006_woman11 {
     width: 85%;
