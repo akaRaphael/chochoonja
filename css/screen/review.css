@@ -50,7 +50,7 @@
 }
 
 .review_container__author {
-  width: 60%;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: flex-end;
