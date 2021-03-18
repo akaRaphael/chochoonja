@@ -32,6 +32,7 @@
 }
 
 .modal_info {
+  width:100%;
   display: block;
   text-align: center;
   color: white;
@@ -68,7 +69,7 @@
 
 @media screen and (max-width: 500px){
   .modal_info{
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .modal_close_btn {
