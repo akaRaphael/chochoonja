@@ -192,6 +192,11 @@
   .profile_container__bottom__right {
     width: 70%;
   }
+
+  .profile_container__bottom__left {
+    padding-top: 10%;
+  }
+
   .profile_container__top__left{
     width: 100%;
   }
