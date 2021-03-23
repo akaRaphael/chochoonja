@@ -21,17 +21,17 @@
 @import "screen/contact.css";
 
 @font-face {
-  font-family: "JejuMyeongjo";
+  font-family: JejuMyeongjo;
   src: url("../font/JejuMyeongjo.ttf");
 }
 
 @font-face {
-  font-family: "kopubMedium";
+  font-family: kopubMedium;
   src: url("../font/KoPubMedium.otf");
 }
 
 @font-face {
-  font-family: "kopubLight";
+  font-family: kopubLight;
   src: url("../font/KoPubLight.otf");
 }
 
