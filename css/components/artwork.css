@@ -2,8 +2,7 @@
   height: 80%;
   display: flex;
   justify-content: flex-start;
-  /* font-family: "Noto Serif KR", serif; */
-  font-family: kopubLight;
+  font-family:'kopubLight';
 }
 
 .main-artwork__content {

@@ -21,27 +21,20 @@
 @import "screen/contact.css";
 
 @font-face {
-  font-family: JejuMyeongjo;
-  src: url("../font/JejuMyeongjo.ttf");
-}
-
-@font-face {
-  font-family: kopubMedium;
-  src: url("../font/KoPubMedium.otf");
-}
-
-@font-face {
-  font-family: kopubLight;
-  src: url("../font/KoPubLight.otf");
-}
-
-/* @font-face {
-  font-family: "MapoFlowerIsland";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff")
-    format("woff");
-  font-weight: normal;
+  font-family: 'JejuMyeongjo';
   font-style: normal;
-} */
+  font-weight: 400;
+  src: url("../font/JejuMyeongjo.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'kopubLight';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/KoPubLight.otf");
+  font-display: swap;
+}
 
 html {
   width: 100%;
