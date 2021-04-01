@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: flex-start;
   font-size: 3vw;
-  font-family: 'kopubLight';
+  font-family: 'Noto Serif KR', serif;
 }
 
 .main-header__title > span:last-child {
@@ -47,7 +47,7 @@
   align-items: center;
   width: 50%;
   height: 100%;
-  font-family: 'kopubLight';
+  font-family: 'Noto Serif KR', serif;
 }
 
 .menu__introduction,

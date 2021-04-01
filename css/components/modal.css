@@ -37,7 +37,8 @@
   text-align: center;
   color: white;
   font-size: 1vw;
-  font-family: 'kopubLight';
+  font-family: 'Noto Serif KR', serif;
+  margin-bottom: 1vw;
 }
 
 .modal__image {

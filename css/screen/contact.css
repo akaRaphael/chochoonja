@@ -33,11 +33,11 @@
   justify-content: space-evenly;
   align-items: flex-start;
   font-size: 1.2vw;
-  font-family: 'kopubLight';
+  font-family: 'Noto Serif KR', serif;
 }
 
 .contact__info-name {
-  font-family: 'kopubLight';
+  font-family: 'Noto Serif KR', serif;
   font-size: 1.7vw;
   width: 80%;
 }
