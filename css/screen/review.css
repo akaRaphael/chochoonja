@@ -56,6 +56,7 @@
   justify-content: flex-end;
   align-items: center;
   font-size: 1vw;
+  white-space: nowrap;
 }
 
 .review_container__content {

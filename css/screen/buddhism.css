@@ -144,7 +144,7 @@
     width: 70%;
     justify-content: center;
     padding-left: 0%;
-    margin-right: -3%;
+    margin-right: -5%;
     margin-left: -4%;
   }
   
@@ -175,6 +175,7 @@
   .buddhism__etc__copyright,
   .buddhism__etc__enlarge {
     font-size: 10%;
+    white-space: nowrap;
   }
 
 }
